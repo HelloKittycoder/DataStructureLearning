@@ -35,10 +35,29 @@ public class Array {
 
     // 向数组末尾添加一个元素
     public void addLast(int e) {
-        if (size == data.length)
+        /*if (size == data.length)
             throw new IllegalArgumentException("AddLast failed. Array is full.");
         data[size] = e;
         size++;
-        // 上面两行可以简写为 data[size++] = e
+        // 上面两行可以简写为 data[size++] = e*/
+
+        add(size, e);
+    }
+
+    // 向数组开头添加一个元素
+    public void addFirst(int e) {
+        add(0, e);
+    }
+
+    // 在第index个位置插入一个新元素e
+    public void add(int index, int e) {
+        if (size == data.length)
+            throw new IllegalArgumentException("AddLast failed. Array is full.");
+
+        if (index < 0 || index > size)
+            throw new IllegalArgumentException("Add failed. Require index >= 0 and index <= size");
+
+        for (int i = size - 1; i >= index; i--)
+            data[i + 1] = data[i];
     }
 }
