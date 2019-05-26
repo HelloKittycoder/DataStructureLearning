@@ -1,6 +1,6 @@
 /**
  * Create by Administrator on 2019/5/24
- * 向数组中添加元素
+ * 数组中查询元素和修改元素
  */
 public class Array {
 
