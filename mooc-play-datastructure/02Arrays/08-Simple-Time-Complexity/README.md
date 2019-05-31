@@ -45,3 +45,5 @@ find(e)  &nbsp;&nbsp;O(n)
 上面编写数学公式的参考链接：  
 https://www.jianshu.com/p/c169599726e1  
 https://my.oschina.net/taadis/blog/2209642
+
+算法的时间复杂度 https://www.cnblogs.com/YuyuanNo1/p/9829389.html
