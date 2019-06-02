@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625b2219-e591-49b3-ae6b-1d5f1cc86016" name="Default" comment="3-4 关于Leetcode的更多说明">
-      <change afterPath="$PROJECT_DIR$/04-More-about-Leetcode/04-More-about-Leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-More-about-Leetcode/src/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-More-about-Leetcode/src/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-More-about-Leetcode/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-More-about-Leetcode/src/Stack.java" afterDir="false" />
+    <list default="true" id="625b2219-e591-49b3-ae6b-1d5f1cc86016" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/05-Array-Queue/05-Array-Queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Array-Queue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Array-Queue/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Array-Queue/src/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Array-Queue/src/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,38 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04-More-about-Leetcode/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-More-about-Leetcode/src/Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-More-about-Leetcode/src/ArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-More-about-Leetcode/src/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="44" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-Array-Queue/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="252">
+                <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -89,6 +65,10 @@
         <option value="$PROJECT_DIR$/02-Array-Stack/src/ArrayStack.java" />
         <option value="$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/src/Solution.java" />
         <option value="$PROJECT_DIR$/04-More-about-Leetcode/src/Solution.java" />
+        <option value="$PROJECT_DIR$/05-Array-Queue/src/Array.java" />
+        <option value="$PROJECT_DIR$/05-Array-Queue/src/Queue.java" />
+        <option value="$PROJECT_DIR$/05-Array-Queue/src/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/05-Array-Queue/README.md" />
       </list>
     </option>
   </component>
@@ -115,9 +95,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="308" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="393" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -487,12 +466,6 @@
             <path>
               <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
               <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
-              <item name="02-Array-Stack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
               <item name="03-A-Stack-Problem-in-Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -511,6 +484,11 @@
               <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
               <item name="04-More-about-Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Array-Queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -536,6 +514,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\03Stack-and-Queues\05-Array-Queue" />
       <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\03Stack-and-Queues\04-More-about-Leetcode\src" />
       <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\03Stack-and-Queues" />
       <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\03Stack-and-Queues\02-Array-Stack" />
@@ -553,9 +532,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.ArrayQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayQueue" />
+      <module name="05-Array-Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
@@ -629,9 +613,11 @@
       <item itemvalue="JUnit.TestArrayStack.test" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.ArrayQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayQueue" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.TestArrayStack.test" />
@@ -649,7 +635,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559313506331</updated>
       <workItem from="1559313510498" duration="1642000" />
-      <workItem from="1559454213436" duration="8937000" />
+      <workItem from="1559454213436" duration="10350000" />
     </task>
     <task id="LOCAL-00001" summary="3-2 栈的基本实现">
       <created>1559457026054</created>
@@ -672,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559484201360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3-4 关于Leetcode的更多说明">
+      <created>1559485957405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559485957405</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -684,10 +677,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10579000" />
+    <option name="totallyTimeSpent" value="11992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="393" y="0" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -709,7 +702,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.40584415" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.30844155" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38203463" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
@@ -765,7 +758,8 @@
     <MESSAGE value="3-2 栈的基本实现" />
     <MESSAGE value="append" />
     <MESSAGE value="3-3 栈的另一个应用（括号匹配）" />
-    <option name="LAST_COMMIT_MESSAGE" value="3-3 栈的另一个应用（括号匹配）" />
+    <MESSAGE value="3-4 关于Leetcode的更多说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="3-4 关于Leetcode的更多说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -869,16 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-Array-Stack/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/lang/CharSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -979,8 +963,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04-More-about-Leetcode/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Array-Queue/src/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Array-Queue/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Array-Queue/src/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Array-Stack/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Array-Queue/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
