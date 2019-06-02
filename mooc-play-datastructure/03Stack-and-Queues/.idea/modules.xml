@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03Stack-and-Queues.iml" filepath="$PROJECT_DIR$/03Stack-and-Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-More-about-Leetcode/04-More-about-Leetcode.iml" filepath="$PROJECT_DIR$/04-More-about-Leetcode/04-More-about-Leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-Array-Queue/05-Array-Queue.iml" filepath="$PROJECT_DIR$/05-Array-Queue/05-Array-Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Loop-Queue/06-Loop-Queue.iml" filepath="$PROJECT_DIR$/06-Loop-Queue/06-Loop-Queue.iml" />
     </modules>
   </component>
 </project>
