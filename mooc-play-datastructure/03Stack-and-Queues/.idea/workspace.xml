@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625b2219-e591-49b3-ae6b-1d5f1cc86016" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/03-A-Stack-Problem-in-Leetcode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,78 +20,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/ArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestArrayStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/TestArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02-Array-Stack/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="33" />
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#1602#1603#0" expanded="true" />
-                <element signature="e#1629#1630#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-                <element signature="e#2968#2969#0" expanded="true" />
-                <element signature="e#3007#3008#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -119,8 +74,9 @@
         <option value="$PROJECT_DIR$/02-Array-Stack/README.md" />
         <option value="$PROJECT_DIR$/02-Array-Stack/src/Stack.java" />
         <option value="$PROJECT_DIR$/02-Array-Stack/src/Array.java" />
-        <option value="$PROJECT_DIR$/02-Array-Stack/src/ArrayStack.java" />
         <option value="$PROJECT_DIR$/02-Array-Stack/src/TestArrayStack.java" />
+        <option value="$PROJECT_DIR$/02-Array-Stack/src/ArrayStack.java" />
+        <option value="$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -147,9 +103,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="213" />
+    <option name="y" value="3" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -519,7 +475,12 @@
             <path>
               <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
               <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
-              <item name="02-Array-Stack" type="462c0819:PsiDirectoryNode" />
+              <item name="03-A-Stack-Problem-in-Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="03-A-Stack-Problem-in-Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -562,9 +523,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="03-A-Stack-Problem-in-Leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -624,8 +590,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.TestArrayStack.test" />
+      <item itemvalue="Application.Solution" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.TestArrayStack.test" />
       </list>
     </recent_temporary>
@@ -641,7 +612,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559313506331</updated>
       <workItem from="1559313510498" duration="1642000" />
-      <workItem from="1559454213436" duration="2396000" />
+      <workItem from="1559454213436" duration="7355000" />
     </task>
     <task id="LOCAL-00001" summary="3-2 栈的基本实现">
       <created>1559457026054</created>
@@ -650,14 +621,29 @@
       <option name="project" value="LOCAL" />
       <updated>1559457026055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="append">
+      <created>1559457093250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559457093250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestArrayStack_test - 2019.06.02 at 14h 26m 51s.xml">
+      <configuration name="TestArrayStack.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestArrayStack_test - 2019.06.02 at 14h 26m 59s.xml">
+      <configuration name="TestArrayStack.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4038000" />
+    <option name="totallyTimeSpent" value="8997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="213" y="3" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -667,19 +653,20 @@
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.50541127" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45670995" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.40584415" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38203463" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
       <window_info anchor="bottom" id="Problems" order="7" />
@@ -691,7 +678,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -733,7 +719,42 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="3-2 栈的基本实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="3-2 栈的基本实现" />
+    <MESSAGE value="append" />
+    <option name="LAST_COMMIT_MESSAGE" value="append" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>topChar.equals('{')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>topChar=='{'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>topChar</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>topChar.equals(&quot;{&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/Stack.java">
@@ -748,33 +769,20 @@
         <state relative-caret-position="162">
           <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02-Array-Stack/02-Array-Stack.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -809,29 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/TestArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -843,9 +828,86 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="216">
-            <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="122" column="10" lean-forward="true" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="e#11695#11696#0" expanded="true" />
+            <element signature="e#11730#11731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Array-Stack/src/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-A-Stack-Problem-in-Leetcode/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
