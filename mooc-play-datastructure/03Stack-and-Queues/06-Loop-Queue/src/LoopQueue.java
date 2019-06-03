@@ -14,6 +14,7 @@ public class LoopQueue<E> implements Queue<E> {
         data = (E[]) new Object[capacity + 1];
         front = 0;
         tail = 0;
+        size = 0;
     }
 
     public LoopQueue() {
