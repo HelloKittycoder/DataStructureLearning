@@ -32,7 +32,7 @@ public class LoopQueue<E> implements Queue<E> {
 
     @Override
     public boolean isEmpty() {
-        return front == size;
+        return front == tail;
     }
 
     @Override

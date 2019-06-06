@@ -1,5 +1,3 @@
-import com.sun.jmx.remote.internal.ArrayQueue;
-
 /**
  * Created by shucheng on 2019-6-2 下午 23:29
  * 循环队列的实现，不再复用动态数组，完全重写底层
@@ -34,7 +32,7 @@ public class LoopQueue<E> implements Queue<E> {
 
     @Override
     public boolean isEmpty() {
-        return front == size;
+        return front == tail;
     }
 
     @Override
@@ -99,7 +97,7 @@ public class LoopQueue<E> implements Queue<E> {
 
     public static void main(String[] args) {
 
-        Queue<Integer> queue = new LoopQueue<>();
+        Queue<Integer> queue = new LoopQueue<>(3);
         for (int i = 0; i < 10; i++) {
             queue.enqueue(i);
             System.out.println(queue);
