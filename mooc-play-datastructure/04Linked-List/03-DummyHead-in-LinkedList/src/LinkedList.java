@@ -67,7 +67,6 @@ public class LinkedList<E> {
     // 在链表头添加新的元素e
     public void addFirst(E e) {
         add(0, e);
-        size++;
     }
 
     // 在链表末尾添加新的元素e
