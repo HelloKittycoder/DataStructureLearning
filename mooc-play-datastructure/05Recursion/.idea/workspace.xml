@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list id="dd20d215-5c6d-4fee-986c-daf08b082dfd" name="忽略" comment="" />
     <list default="true" id="72447ce5-276d-4ac0-9619-5dddd1f65ffe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/06-Debug-Recursive-Solution/06-Debug-Recursive-Solution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-Debug-Recursive-Solution/src/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-Debug-Recursive-Solution/src/Solution5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06Binary-Search-Tree-Basics/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06Binary-Search-Tree-Basics/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06Binary-Search-Tree-Basics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06Binary-Search-Tree-Basics/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06Binary-Search-Tree-Basics/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06Binary-Search-Tree-Basics/06Binary-Search-Tree-Basics.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution5.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06-Debug-Recursive-Solution/src/Solution5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+            <state relative-caret-position="270">
+              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="986" column="5" selection-start-line="986" selection-start-column="5" selection-end-line="986" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -91,8 +102,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="500" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="60" />
+    <option name="y" value="76" />
     <option name="width" value="1936" />
     <option name="height" value="1060" />
   </component>
@@ -632,7 +644,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559899485796</updated>
-      <workItem from="1559899489394" duration="13576000" />
+      <workItem from="1559899489394" duration="15065000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559899619861</created>
@@ -683,14 +695,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559914906680</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="5-6 递归算法的调试">
+      <created>1559916331279</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559916331279</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13576000" />
+    <option name="totallyTimeSpent" value="15065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="60" y="76" width="1936" height="1060" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -705,16 +724,16 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51623374" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.51406926" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5151515" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.36530173" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Problems" />
       <window_info id="JRebel" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" />
@@ -768,7 +787,8 @@
     <MESSAGE value="5-3 递归基础与递归的宏观语义" />
     <MESSAGE value="5-4 链表的天然递归结构性质" />
     <MESSAGE value="5-5 递归运行的机制：递归的微观解读" />
-    <option name="LAST_COMMIT_MESSAGE" value="5-5 递归运行的机制：递归的微观解读" />
+    <MESSAGE value="5-6 递归算法的调试" />
+    <option name="LAST_COMMIT_MESSAGE" value="5-6 递归算法的调试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,10 +929,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/LinkedList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06-Debug-Recursive-Solution/src/Solution5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="44" column="39" lean-forward="true" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+        <state relative-caret-position="270">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6712">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="986" column="5" selection-start-line="986" selection-start-column="5" selection-end-line="986" selection-end-column="5" />
         </state>
       </provider>
     </entry>
