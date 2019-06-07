@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="" />
     <list default="true" id="a9da92d1-0a0d-47e8-9038-641f675558be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/05-Remove-Element-in-LinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/06-Implement-Stack-in-LinkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/TestStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="">
-      <change beforePath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,37 +27,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java">
+      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="159" selection-start-line="159" selection-end-line="159" />
+            <state relative-caret-position="326">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedListStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
               <folding>
-                <element signature="e#3370#3371#0" expanded="true" />
-                <element signature="e#3402#3403#0" expanded="true" />
-                <element signature="e#3498#3499#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
+      <file leaf-file-name="TestStacks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/TestStacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="219">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="163" column="24" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="24" />
+              <folding>
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,6 +96,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>addFirst</find>
+      <find>toStri</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,6 +121,9 @@
         <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java" />
         <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/README.md" />
+        <option value="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/Array.java" />
+        <option value="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedListStack.java" />
+        <option value="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/TestStacks.java" />
       </list>
     </option>
   </component>
@@ -122,9 +150,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="373" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="769" />
+    <option name="y" value="28" />
     <option name="width" value="1936" />
     <option name="height" value="1060" />
   </component>
@@ -488,23 +516,23 @@
             <path>
               <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
               <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Query-and-Update-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Remove-Element-in-LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
               <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Query-and-Update-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Remove-Element-in-LinkedList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
               <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
-              <item name="05-Remove-Element-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="06-Implement-Stack-in-LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
               <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
-              <item name="05-Remove-Element-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="06-Implement-Stack-in-LinkedList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -519,7 +547,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03Stack-and-Queues" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -532,6 +560,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\04Linked-List\06-Implement-Stack-in-LinkedList\src" />
       <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\04Linked-List\05-Remove-Element-in-LinkedList" />
       <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\04Linked-List" />
     </key>
@@ -548,9 +577,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLinkedList.test1 (1)">
+  <component name="RunManager" selected="JUnit.TestStacks.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListStack" />
+      <module name="06-Implement-Stack-in-LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -579,6 +613,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestStacks.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-Implement-Stack-in-LinkedList" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestStacks" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -630,9 +681,13 @@
     <list>
       <item itemvalue="JUnit.TestLinkedList.test1" />
       <item itemvalue="JUnit.TestLinkedList.test1 (1)" />
+      <item itemvalue="Application.LinkedListStack" />
+      <item itemvalue="JUnit.TestStacks.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStacks.test" />
+        <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="JUnit.TestLinkedList.test1 (1)" />
         <item itemvalue="JUnit.TestLinkedList.test1" />
       </list>
@@ -650,7 +705,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559835361258</updated>
       <workItem from="1559835367438" duration="2896000" />
-      <workItem from="1559872306215" duration="9210000" />
+      <workItem from="1559872306215" duration="11671000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559835574300</created>
@@ -694,31 +749,17 @@
       <option name="project" value="LOCAL" />
       <updated>1559877961128</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="4-5 从链表中删除元素">
+      <created>1559883738017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559883738017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 35m 41s.xml">
-      <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 35m 57s.xml">
-      <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 36m 07s.xml">
-      <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 54m 28s.xml">
-      <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 54m 38s.xml">
-      <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 54m 43s.xml">
-      <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 54m 52s.xml">
-      <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 11h 57m 16s.xml">
       <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
     </history-entry>
@@ -728,12 +769,34 @@
     <history-entry file="TestLinkedList_test1_(1) - 2019.06.07 at 12h 04m 12s.xml">
       <configuration name="TestLinkedList.test1 (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestStacks_test - 2019.06.07 at 16h 31m 06s.xml">
+      <configuration name="TestStacks.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStacks_test - 2019.06.07 at 16h 31m 22s.xml">
+      <configuration name="TestStacks.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStacks_test - 2019.06.07 at 16h 31m 26s.xml">
+      <configuration name="TestStacks.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStacks_test - 2019.06.07 at 16h 31m 44s.xml">
+      <configuration name="TestStacks.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStacks_test - 2019.06.07 at 16h 32m 21s.xml">
+      <configuration name="TestStacks.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStacks_test - 2019.06.07 at 16h 32m 52s.xml">
+      <configuration name="TestStacks.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStacks_test - 2019.06.07 at 16h 33m 14s.xml">
+      <configuration name="TestStacks.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12106000" />
+    <option name="totallyTimeSpent" value="14567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="373" y="20" width="1936" height="1060" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -754,8 +817,8 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.37715518" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.375" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32575756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37445888" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
@@ -813,7 +876,8 @@
     <MESSAGE value="4-2 在链表中添加元素" />
     <MESSAGE value="4-3 使用链表的虚拟头节点" />
     <MESSAGE value="4-4 链表的遍历，查询和修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-4 链表的遍历，查询和修改" />
+    <MESSAGE value="4-5 从链表中删除元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-5 从链表中删除元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -915,10 +979,59 @@
     <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <first_editor relative-caret-position="162">
+            <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="163" column="24" selection-start-line="163" selection-start-column="18" selection-end-line="163" selection-end-column="24" />
+          <folding>
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedListStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/TestStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,7 +1088,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>05-Remove-Element-in-LinkedList</last-edited>
+          <last-edited>06-Implement-Stack-in-LinkedList</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
