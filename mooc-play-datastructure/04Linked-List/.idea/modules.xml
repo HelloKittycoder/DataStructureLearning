@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-Linked-List-Basics/01-Linked-List-Basics.iml" filepath="$PROJECT_DIR$/01-Linked-List-Basics/01-Linked-List-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/02-Add-Elements-in-LinkedList.iml" filepath="$PROJECT_DIR$/02-Add-Elements-in-LinkedList/02-Add-Elements-in-LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/04Linked-List.iml" filepath="$PROJECT_DIR$/04Linked-List.iml" />
     </modules>
   </component>

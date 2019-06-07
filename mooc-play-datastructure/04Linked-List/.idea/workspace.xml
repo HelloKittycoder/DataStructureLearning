@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9da92d1-0a0d-47e8-9038-641f675558be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/01-Linked-List-Basics/01-Linked-List-Basics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Linked-List-Basics/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="">
       <change beforePath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list default="true" id="a9da92d1-0a0d-47e8-9038-641f675558be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/02-Add-Elements-in-LinkedList/02-Add-Elements-in-LinkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,19 +22,19 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-Linked-List-Basics/src/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="471">
+              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
               <folding>
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +64,7 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/01-Linked-List-Basics/src/LinkedList.java" />
+        <option value="$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -74,29 +73,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml">
-      <ranges>
-        <range start1="4" end1="11" start2="4" end2="7" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="12" end1="12" start2="8" end2="10" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="38" end1="40" start2="36" end2="38" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="45" end1="47" start2="43" end2="43" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="129" end1="131" start2="125" end2="127" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="494" end1="516" start2="490" end2="490" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="695" end1="696" start2="669" end2="670" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="753" end1="754" start2="727" end2="735" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="778" end1="778" start2="759" end2="762" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="780" end1="781" start2="764" end2="765" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="783" end1="784" start2="767" end2="768" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="805" end1="807" start2="789" end2="791" changelist="333ea702-522f-4ef2-9536-a2f3e0bb054c" />
-        <range start1="809" end1="810" start2="793" end2="794" changelist="333ea702-522f-4ef2-9536-a2f3e0bb054c" />
-        <range start1="867" end1="868" start2="851" end2="853" changelist="333ea702-522f-4ef2-9536-a2f3e0bb054c" />
-        <range start1="1211" end1="1211" start2="1196" end2="1221" changelist="333ea702-522f-4ef2-9536-a2f3e0bb054c" />
-        <range start1="1213" end1="1215" start2="1223" end2="1225" changelist="a9da92d1-0a0d-47e8-9038-641f675558be" />
-        <range start1="1220" end1="1222" start2="1230" end2="1230" changelist="333ea702-522f-4ef2-9536-a2f3e0bb054c" />
-      </ranges>
-    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -115,9 +91,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="327" />
-    <option name="y" value="54" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -481,14 +457,20 @@
             <path>
               <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
               <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Linked-List-Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="02-Add-Elements-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
+              <item name="02-Add-Elements-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -504,6 +486,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\04Linked-List" />
     </key>
@@ -577,7 +562,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559835361258</updated>
-      <workItem from="1559835367438" duration="1691000" />
+      <workItem from="1559835367438" duration="2896000" />
+      <workItem from="1559872306215" duration="1702000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559835574300</created>
@@ -593,49 +579,55 @@
       <option name="project" value="LOCAL" />
       <updated>1559835615123</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4-1 什么是链表">
+      <created>1559837177480</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559837177480</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1691000" />
+    <option name="totallyTimeSpent" value="4598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="327" y="54" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Statistic" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.37445888" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.37445888" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info id="JRebel" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Problems" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,9 +642,25 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="4-1 什么是链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-1 什么是链表" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -665,15 +673,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-Linked-List-Basics/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
           <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
           </folding>
         </state>
       </provider>
