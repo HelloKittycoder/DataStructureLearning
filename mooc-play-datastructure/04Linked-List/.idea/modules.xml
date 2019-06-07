@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/04Linked-List.iml" filepath="$PROJECT_DIR$/04Linked-List.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/05-Remove-Element-in-LinkedList.iml" filepath="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/05-Remove-Element-in-LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/06-Implement-Stack-in-LinkedList.iml" filepath="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/06-Implement-Stack-in-LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/07-Implement-Queue-in-LinkedList.iml" filepath="$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/07-Implement-Queue-in-LinkedList.iml" />
     </modules>
   </component>
 </project>
