@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03-Recursion-Basics/03-Recursion-Basics.iml" filepath="$PROJECT_DIR$/03-Recursion-Basics/03-Recursion-Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-LinkedList-and-Recursion/04-LinkedList-and-Recursion.iml" filepath="$PROJECT_DIR$/04-LinkedList-and-Recursion/04-LinkedList-and-Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/05Recursion.iml" filepath="$PROJECT_DIR$/05Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-Debug-Recursive-Solution/06-Debug-Recursive-Solution.iml" filepath="$PROJECT_DIR$/06-Debug-Recursive-Solution/06-Debug-Recursive-Solution.iml" />
     </modules>
   </component>
 </project>
