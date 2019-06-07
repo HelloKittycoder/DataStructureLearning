@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="">
-      <change beforePath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" afterDir="false" />
-    </list>
     <list default="true" id="a9da92d1-0a0d-47e8-9038-641f675558be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/02-Add-Elements-in-LinkedList/02-Add-Elements-in-LinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-DummyHead-in-LinkedList/03-DummyHead-in-LinkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-DummyHead-in-LinkedList/src/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="">
+      <change beforePath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03Stack-and-Queues/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,19 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
                 <element signature="e#1647#1648#0" expanded="true" />
                 <element signature="e#1675#1676#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-DummyHead-in-LinkedList/src/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -65,6 +70,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/01-Linked-List-Basics/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java" />
+        <option value="$PROJECT_DIR$/03-DummyHead-in-LinkedList/src/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -91,9 +97,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="365" />
+    <option name="y" value="30" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -465,6 +471,17 @@
               <item name="02-Add-Elements-in-LinkedList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
+              <item name="03-DummyHead-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
+              <item name="03-DummyHead-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -563,7 +580,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559835361258</updated>
       <workItem from="1559835367438" duration="2896000" />
-      <workItem from="1559872306215" duration="1702000" />
+      <workItem from="1559872306215" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559835574300</created>
@@ -586,14 +603,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559837177480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4-2 在链表中添加元素">
+      <created>1559874039314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559874039314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4598000" />
+    <option name="totallyTimeSpent" value="6054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="365" y="30" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -633,6 +657,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -643,7 +693,8 @@
     </ignored-roots>
     <MESSAGE value="init" />
     <MESSAGE value="4-1 什么是链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-1 什么是链表" />
+    <MESSAGE value="4-2 在链表中添加元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-2 在链表中添加元素" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java">
@@ -651,10 +702,6 @@
         <state relative-caret-position="828">
           <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
             <element signature="e#1647#1648#0" expanded="true" />
             <element signature="e#1675#1676#0" expanded="true" />
           </folding>
@@ -680,16 +727,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
             <element signature="e#1647#1648#0" expanded="true" />
             <element signature="e#1675#1676#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-DummyHead-in-LinkedList/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
         </state>
       </provider>
     </entry>
