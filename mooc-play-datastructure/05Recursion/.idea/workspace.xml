@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72447ce5-276d-4ac0-9619-5dddd1f65ffe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/01-Linked-List-Problems-in-Leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Recursion-Basics/03-Recursion-Basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Recursion-Basics/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-Recursion-Basics/src/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,45 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/ListNode.java">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-Recursion-Basics/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-Recursion-Basics/src/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
               <folding>
+                <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -93,6 +74,12 @@
         <option value="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/ListNode.java" />
         <option value="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution2.java" />
         <option value="$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution.java" />
+        <option value="$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/ListNode.java" />
+        <option value="$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/Solution.java" />
+        <option value="$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/Solution2.java" />
+        <option value="$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/Solution3.java" />
+        <option value="$PROJECT_DIR$/03-Recursion-Basics/src/Sum.java" />
+        <option value="$PROJECT_DIR$/03-Recursion-Basics/README.md" />
       </list>
     </option>
   </component>
@@ -119,9 +106,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="329" />
-    <option name="y" value="112" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1060" />
   </component>
@@ -486,13 +473,7 @@
             <path>
               <item name="05Recursion" type="b2602c69:ProjectViewProjectNode" />
               <item name="05Recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Linked-List-Problems-in-Leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="05Recursion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="05Recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Linked-List-Problems-in-Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="03-Recursion-Basics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -511,13 +492,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\05Recursion\02-Test-Your-LinkedList-Solution\src" />
       <recent name="D:\Code\shucheng\IntelliJIdeaProjects\gitProjects\DataStructureLearning\mooc-play-datastructure\05Recursion" />
     </key>
   </component>
@@ -533,9 +515,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Sum">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="02-Test-Your-LinkedList-Solution" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution2" />
+      <module name="02-Test-Your-LinkedList-Solution" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution3" />
+      <module name="02-Test-Your-LinkedList-Solution" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sum" />
+      <module name="03-Recursion-Basics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -578,6 +580,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.Solution3" />
+      <item itemvalue="Application.Sum" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -590,7 +606,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559899485796</updated>
-      <workItem from="1559899489394" duration="2517000" />
+      <workItem from="1559899489394" duration="7393000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559899619861</created>
@@ -606,14 +622,28 @@
       <option name="project" value="LOCAL" />
       <updated>1559899639737</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5-1 Leetcode中和链表相关的问题">
+      <created>1559902877643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559902877643</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5-2 测试自己的Leetcode链表代码">
+      <created>1559907753736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559907753736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2517000" />
+    <option name="totallyTimeSpent" value="7393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="329" y="112" width="1936" height="1060" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -630,11 +660,12 @@
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3760776" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3300866" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.4025974" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Problems" />
@@ -653,19 +684,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="5-1 Leetcode中和链表相关的问题" />
+    <MESSAGE value="5-2 测试自己的Leetcode链表代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="5-2 测试自己的Leetcode链表代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01-Linked-List-Problems-in-Leetcode/src/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="5" selection-start-line="5" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -694,6 +753,60 @@
           <folding>
             <element signature="e#0#148#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-Test-Your-LinkedList-Solution/src/Solution3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Recursion-Basics/src/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-Recursion-Basics/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
