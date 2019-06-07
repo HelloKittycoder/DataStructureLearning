@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="625b2219-e591-49b3-ae6b-1d5f1cc86016" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/08-Queues-Comparison/08-Queues-Comparison.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Queues-Comparison/src/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Queues-Comparison/src/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Queues-Comparison/src/LoopQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Queues-Comparison/src/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-Queues-Comparison/src/TestQueues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04Linked-List/06-Implement-Stack-in-LinkedList/06-Implement-Stack-in-LinkedList.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,16 +32,8 @@
       <file leaf-file-name="TestQueues.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/08-Queues-Comparison/src/TestQueues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="74" column="65" lean-forward="true" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-              <folding>
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1905#1906#0" expanded="true" />
-                <element signature="e#1975#1976#0" expanded="true" />
-                <element signature="e#2087#2088#0" expanded="true" />
-                <element signature="e#2159#2160#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -126,9 +114,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="18" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="132" />
+    <option name="y" value="252" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -482,8 +470,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -495,12 +481,23 @@
             <path>
               <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
               <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
-              <item name="05-Array-Queue" type="462c0819:PsiDirectoryNode" />
+              <item name="02-Array-Stack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
               <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
-              <item name="05-Array-Queue" type="462c0819:PsiDirectoryNode" />
+              <item name="02-Array-Stack" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="03-A-Stack-Problem-in-Leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03Stack-and-Queues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03Stack-and-Queues" type="462c0819:PsiDirectoryNode" />
+              <item name="03-A-Stack-Problem-in-Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -518,12 +515,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GrandCanal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -693,7 +692,8 @@
       <workItem from="1559524536162" duration="1054000" />
       <workItem from="1559556242098" duration="930000" />
       <workItem from="1559798877079" duration="5456000" />
-      <workItem from="1559829598498" duration="5026000" />
+      <workItem from="1559829598498" duration="6626000" />
+      <workItem from="1559883927539" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="3-2 栈的基本实现">
       <created>1559457026054</created>
@@ -751,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559832282281</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="3-8 数组队列和循环队列的比较">
+      <created>1559835221103</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559835221103</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -776,20 +783,22 @@
     <history-entry file="TestQueues_test2 - 2019.06.06 at 23h 28m 23s.xml">
       <configuration name="TestQueues.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestQueues_test3 - 2019.06.06 at 23h 31m 40s.xml">
+      <configuration name="TestQueues.test3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29650000" />
+    <option name="totallyTimeSpent" value="31941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="317" y="18" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="132" y="252" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
@@ -799,19 +808,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48051947" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3181818" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36038962" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36038962" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.41017315" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -865,7 +874,8 @@
     <MESSAGE value="3-6 循环队列" />
     <MESSAGE value="3-7 循环队列的实现" />
     <MESSAGE value="按个人理解再写了一次LoopQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="按个人理解再写了一次LoopQueue" />
+    <MESSAGE value="3-8 数组队列和循环队列的比较" />
+    <option name="LAST_COMMIT_MESSAGE" value="3-8 数组队列和循环队列的比较" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,6 +932,20 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/08-Queues-Comparison/src/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Queues-Comparison/src/TestQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="60" column="56" lean-forward="true" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/07-Implementation-of-Loop-Queue/src/LoopQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1818">
@@ -1149,10 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1209,18 +1229,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/stream/DoubleStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="579" column="19" selection-start-line="579" selection-start-column="19" selection-end-line="579" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="5111" column="31" selection-start-line="5111" selection-start-column="31" selection-end-line="5111" selection-end-column="31" />
+          <folding>
+            <element signature="e#226830#226831#0" expanded="true" />
+            <element signature="e#226883#226884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/OptionalDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/08-Queues-Comparison/src/TestQueues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="74" column="65" lean-forward="true" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
-          <folding>
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
         </state>
       </provider>
     </entry>

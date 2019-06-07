@@ -120,7 +120,9 @@ public class Array<E> {
         // 说明：上面这行不加，其实对于算法本身逻辑来说，没有任何问题；
         // 这里由于存放的是对象，如果data数组该索引位置指向null，则该位置原有的对象会被java的GC回收掉
 
-        if (size == data.length / 2)
+        /*if (size == data.length / 2)
+            resize(data.length / 2);*/
+        if(size == data.length / 4 && data.length / 2 != 0)
             resize(data.length / 2);
         return ret;
     }
