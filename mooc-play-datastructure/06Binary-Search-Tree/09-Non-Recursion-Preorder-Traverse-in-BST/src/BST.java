@@ -97,7 +97,7 @@ public class BST<E extends Comparable<E>> {
         }*/
     }
 
-    // 二分搜索树的前序遍历
+    // 二分搜索树的非递归前序遍历
     public void preOrderNR() {
 
         Stack<Node> stack = new Stack<>();
