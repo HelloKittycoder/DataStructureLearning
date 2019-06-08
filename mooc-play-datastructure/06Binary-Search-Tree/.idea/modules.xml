@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/02-Binary-Search-Tree-Basics/02-Binary-Search-Tree-Basics.iml" filepath="$PROJECT_DIR$/02-Binary-Search-Tree-Basics/02-Binary-Search-Tree-Basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-Add-Elements-in-BST/03-Add-Elements-in-BST.iml" filepath="$PROJECT_DIR$/03-Add-Elements-in-BST/03-Add-Elements-in-BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/04-Improved-Add-Elements-in-BST.iml" filepath="$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/04-Improved-Add-Elements-in-BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/06Binary-Search-Tree.iml" filepath="$PROJECT_DIR$/06Binary-Search-Tree.iml" />
     </modules>
   </component>
