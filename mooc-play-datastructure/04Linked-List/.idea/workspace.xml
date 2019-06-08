@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9da92d1-0a0d-47e8-9038-641f675558be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../05Recursion/01-Linked-List-Problems-in-Leetcode/01-Linked-List-Problems-in-Leetcode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05Recursion/01-Linked-List-Problems-in-Leetcode/src/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05Recursion/01-Linked-List-Problems-in-Leetcode/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05Recursion/01-Linked-List-Problems-in-Leetcode/src/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../05Recursion/01-Linked-List-Problems-in-Leetcode/src/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06Binary-Search-Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06Binary-Search-Tree/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,32 +20,49 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedListQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/LinkedListQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
-              <folding>
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestQueues.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/TestQueues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="73" column="50" lean-forward="true" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#3370#3371#0" expanded="true" />
+                    <element signature="e#3402#3403#0" expanded="true" />
+                    <element signature="e#3459#3460#0" expanded="true" />
+                    <element signature="e#3498#3499#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestLinkedList.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="LinkedList2.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="414">
+                  <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,13 +97,14 @@
         <option value="$PROJECT_DIR$/04-Query-and-Update-in-LinkedList/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/03-DummyHead-in-LinkedList/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java" />
-        <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java" />
         <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/README.md" />
         <option value="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/Array.java" />
         <option value="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/LinkedListStack.java" />
         <option value="$PROJECT_DIR$/06-Implement-Stack-in-LinkedList/src/TestStacks.java" />
         <option value="$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/LinkedListQueue.java" />
         <option value="$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/TestQueues.java" />
+        <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java" />
+        <option value="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java" />
       </list>
     </option>
   </component>
@@ -117,9 +131,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="729" />
-    <option name="y" value="111" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-68" />
+    <option name="y" value="226" />
     <option name="width" value="1936" />
     <option name="height" value="1060" />
   </component>
@@ -473,12 +487,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
               <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Remove-Element-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
+              <item name="04Linked-List" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Remove-Element-in-LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04Linked-List" type="b2602c69:ProjectViewProjectNode" />
@@ -506,15 +534,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03Stack-and-Queues" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../05Recursion" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -545,7 +570,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestQueues.test2">
+  <component name="RunManager" selected="JUnit.TestLinkedList.test1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -554,13 +579,25 @@
       <module name="07-Implement-Queue-in-LinkedList" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListStack" />
-      <module name="06-Implement-Stack-in-LinkedList" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestLinkedList.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-Remove-Element-in-LinkedList" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestQueues.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="07-Implement-Queue-in-LinkedList" />
@@ -652,19 +689,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedListStack" />
       <item itemvalue="JUnit.TestStacks.test" />
       <item itemvalue="Application.LinkedListQueue" />
       <item itemvalue="JUnit.TestQueues.test1" />
       <item itemvalue="JUnit.TestQueues.test2" />
+      <item itemvalue="JUnit.TestLinkedList.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLinkedList.test1" />
         <item itemvalue="JUnit.TestQueues.test2" />
         <item itemvalue="JUnit.TestQueues.test1" />
         <item itemvalue="Application.LinkedListQueue" />
         <item itemvalue="JUnit.TestStacks.test" />
-        <item itemvalue="Application.LinkedListStack" />
       </list>
     </recent_temporary>
   </component>
@@ -681,6 +718,7 @@
       <updated>1559835361258</updated>
       <workItem from="1559835367438" duration="2896000" />
       <workItem from="1559872306215" duration="15999000" />
+      <workItem from="1559967740351" duration="2270000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559835574300</created>
@@ -749,18 +787,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestStacks_test - 2019.06.07 at 16h 31m 44s.xml">
-      <configuration name="TestStacks.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStacks_test - 2019.06.07 at 16h 32m 21s.xml">
-      <configuration name="TestStacks.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStacks_test - 2019.06.07 at 16h 32m 52s.xml">
-      <configuration name="TestStacks.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestStacks_test - 2019.06.07 at 16h 33m 14s.xml">
-      <configuration name="TestStacks.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestStacks_test - 2019.06.07 at 16h 33m 38s.xml">
       <configuration name="TestStacks.test" configurationId="JUnit" />
     </history-entry>
@@ -779,20 +805,31 @@
     <history-entry file="TestQueues_test2 - 2019.06.07 at 17h 20m 08s.xml">
       <configuration name="TestQueues.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestLinkedList_test1 - 2019.06.08 at 12h 55m 57s.xml">
+      <configuration name="TestLinkedList.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLinkedList_test1 - 2019.06.08 at 12h 56m 27s.xml">
+      <configuration name="TestLinkedList.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLinkedList_test1 - 2019.06.08 at 12h 56m 47s.xml">
+      <configuration name="TestLinkedList.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLinkedList_test1 - 2019.06.08 at 12h 56m 59s.xml">
+      <configuration name="TestLinkedList.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18895000" />
+    <option name="totallyTimeSpent" value="21165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="729" y="111" width="1936" height="1060" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
@@ -802,15 +839,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42207792" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.42995688" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38961038" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32034633" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.42857143" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.20309168" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.2153518" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -876,14 +913,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/LinkedListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/TestQueues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="73" column="50" lean-forward="true" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02-Add-Elements-in-LinkedList/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,14 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,10 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,14 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="146" selection-start-line="146" selection-end-line="146" />
-          <folding>
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,25 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
-          <folding>
-            <element signature="e#3370#3371#0" expanded="true" />
-            <element signature="e#3402#3403#0" expanded="true" />
-            <element signature="e#3498#3499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1050,21 +1058,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="1656">
           <caret line="102" column="38" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
-          <folding>
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/TestQueues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="73" column="50" lean-forward="true" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+        <state relative-caret-position="27">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="e#3370#3371#0" expanded="true" />
+            <element signature="e#3402#3403#0" expanded="true" />
+            <element signature="e#3459#3460#0" expanded="true" />
+            <element signature="e#3498#3499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
         </state>
       </provider>
     </entry>
