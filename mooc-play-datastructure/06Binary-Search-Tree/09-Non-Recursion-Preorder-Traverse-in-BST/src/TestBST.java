@@ -20,10 +20,12 @@ public class TestBST {
         //     /  \    \        //
         //    2   4     8       //
         //////////////////////////
-        bst.preOrder();
+        bst.levelOrder();
+
+        /*bst.preOrder();
         System.out.println();
 
-        bst.preOrderNR();
+        bst.preOrderNR();*/
 
         /*bst.inOrder();
         System.out.println();

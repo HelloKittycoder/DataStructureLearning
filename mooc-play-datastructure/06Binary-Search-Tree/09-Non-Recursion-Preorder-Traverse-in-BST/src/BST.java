@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -145,7 +147,23 @@ public class BST<E extends Comparable<E>> {
         System.out.println(node.e);
     }
 
-    @Override
+    // 二分搜索树的层序遍历
+    public void levelOrder() {
+
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            Node cur = q.remove();
+            System.out.println(cur.e);
+
+            if (cur.left != null)
+                q.add(cur.left);
+            if (cur.right != null)
+                q.add(cur.right);
+        }
+    }
+
+  @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
         generateBSTString(root, 0, res);

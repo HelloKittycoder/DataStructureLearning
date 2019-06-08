@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/TestBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/TestBST.java" afterDir="false" />
+    </list>
     <list id="c284002a-db50-4d02-89ff-a39e554376f3" name="忽略" comment="">
       <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/09-Non-Recursion-Preorder-Traverse-in-BST.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/TestBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +25,11 @@
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+            <state relative-caret-position="453">
+              <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file leaf-file-name="TestBST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/TestBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="396">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -51,6 +51,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Consumer</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -468,17 +473,6 @@
             <path>
               <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
               <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="07-InOrder-and-PostOrder-Traverse-in-BST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="07-InOrder-and-PostOrder-Traverse-in-BST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
               <item name="09-Non-Recursion-Preorder-Traverse-in-BST" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -687,7 +681,7 @@
       <workItem from="1559920355105" duration="225000" />
       <workItem from="1559920639419" duration="115000" />
       <workItem from="1559920778688" duration="1378000" />
-      <workItem from="1559964463932" duration="17671000" />
+      <workItem from="1559964463932" duration="18935000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559920512845</created>
@@ -773,13 +767,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560005917196</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="6-9 二分搜索树前序遍历的非递归实现">
+      <created>1560010774819</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560010774819</updated>
+    </task>
+    <task id="LOCAL-00014" summary="6-9 二分搜索树前序遍历的非递归实现">
+      <created>1560011490663</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560011490663</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBST_test1_(2) - 2019.06.08 at 15h 22m 50s.xml">
-      <configuration name="TestBST.test1 (2)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBST_test2 - 2019.06.08 at 21h 36m 22s.xml">
       <configuration name="TestBST.test2" configurationId="JUnit" />
     </history-entry>
@@ -807,9 +812,12 @@
     <history-entry file="TestBST_test2 - 2019.06.08 at 22h 02m 07s.xml">
       <configuration name="TestBST.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBST_test1_(3) - 2019.06.09 at 00h 18m 06s.xml">
+      <configuration name="TestBST.test1 (3)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19389000" />
+    <option name="totallyTimeSpent" value="20653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -830,11 +838,11 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37445888" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.48922414" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.2965368" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41558442" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Problems" order="7" />
@@ -892,7 +900,8 @@
     <MESSAGE value="6-5 二分搜索树的查询操作" />
     <MESSAGE value="6-6 二分搜索树的前序遍历" />
     <MESSAGE value="6-7 二分搜索树的中序遍历和后序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-7 二分搜索树的中序遍历和后序遍历" />
+    <MESSAGE value="6-9 二分搜索树前序遍历的非递归实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-9 二分搜索树前序遍历的非递归实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,7 +913,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1059,17 +1068,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="192" column="35" selection-start-line="192" selection-start-column="35" selection-end-line="192" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/worksoft/Java/jdk1.8.0_161/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+        <state relative-caret-position="453">
+          <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/TestBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="396">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1090,7 +1130,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
