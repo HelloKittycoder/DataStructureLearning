@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="c284002a-db50-4d02-89ff-a39e554376f3" name="忽略" comment="">
+      <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/04-Improved-Add-Elements-in-BST.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Search-in-BST/05-Search-in-BST.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Search-in-BST/src/BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,13 +25,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/src/BST.java">
+        <entry file="file://$PROJECT_DIR$/05-Search-in-BST/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            <state relative-caret-position="350">
+              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
               <folding>
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +62,7 @@
         <option value="$PROJECT_DIR$/02-Binary-Search-Tree-Basics/src/BST.java" />
         <option value="$PROJECT_DIR$/03-Add-Elements-in-BST/src/BST.java" />
         <option value="$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/src/BST.java" />
+        <option value="$PROJECT_DIR$/05-Search-in-BST/src/BST.java" />
       </list>
     </option>
   </component>
@@ -85,8 +90,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="512" />
+    <option name="y" value="41" />
     <option name="width" value="1936" />
     <option name="height" value="1060" />
   </component>
@@ -452,34 +457,12 @@
             <path>
               <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
               <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="02-Binary-Search-Tree-Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Search-in-BST" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
               <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="02-Binary-Search-Tree-Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Add-Elements-in-BST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="03-Add-Elements-in-BST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Improved-Add-Elements-in-BST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Improved-Add-Elements-in-BST" type="462c0819:PsiDirectoryNode" />
+              <item name="05-Search-in-BST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -492,7 +475,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../05Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04Linked-List" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -572,6 +555,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="" />
+      <changelist id="c284002a-db50-4d02-89ff-a39e554376f3" name="忽略" comment="" />
       <created>1559920348297</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -579,7 +563,7 @@
       <workItem from="1559920355105" duration="225000" />
       <workItem from="1559920639419" duration="115000" />
       <workItem from="1559920778688" duration="1378000" />
-      <workItem from="1559964463932" duration="2593000" />
+      <workItem from="1559964463932" duration="6282000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559920512845</created>
@@ -630,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559966224361</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="6-4 改进添加操作：深入理解递归终止条件">
+      <created>1559967424663</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559967424663</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4311000" />
+    <option name="totallyTimeSpent" value="8000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -657,7 +648,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33441558" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.38852814" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Problems" order="7" />
@@ -711,7 +702,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="6-2 二分搜索树基础" />
     <MESSAGE value="6-3 向二分搜索树中添加元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-3 向二分搜索树中添加元素" />
+    <MESSAGE value="6-4 改进添加操作：深入理解递归终止条件" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-4 改进添加操作：深入理解递归终止条件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -769,13 +761,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../05Recursion/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="382">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#578#579#0" expanded="true" />
             <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Search-in-BST/src/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding>
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
           </folding>
         </state>
       </provider>
