@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/05-Search-in-BST/src/TestBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-PreOrder-Traverse-in-BST/06-PreOrder-Traverse-in-BST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Search-in-BST/05-Search-in-BST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-Search-in-BST/05-Search-in-BST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Search-in-BST/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-Search-in-BST/src/BST.java" afterDir="false" />
+    </list>
     <list id="c284002a-db50-4d02-89ff-a39e554376f3" name="忽略" comment="">
       <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/05-Search-in-BST/05-Search-in-BST.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-Search-in-BST/src/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-Search-in-BST/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="359">
+              <caret line="114" column="52" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
               <folding>
                 <element signature="e#1054#1055#0" expanded="true" />
                 <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1543#1544#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBST.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-Search-in-BST/src/TestBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -63,6 +77,7 @@
         <option value="$PROJECT_DIR$/03-Add-Elements-in-BST/src/BST.java" />
         <option value="$PROJECT_DIR$/04-Improved-Add-Elements-in-BST/src/BST.java" />
         <option value="$PROJECT_DIR$/05-Search-in-BST/src/BST.java" />
+        <option value="$PROJECT_DIR$/05-Search-in-BST/src/TestBST.java" />
       </list>
     </option>
   </component>
@@ -90,8 +105,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="512" />
-    <option name="y" value="41" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1060" />
   </component>
@@ -481,7 +496,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -509,6 +524,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestBST.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="05-Search-in-BST" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBST" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -548,6 +580,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBST.test1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -563,7 +600,7 @@
       <workItem from="1559920355105" duration="225000" />
       <workItem from="1559920639419" duration="115000" />
       <workItem from="1559920778688" duration="1378000" />
-      <workItem from="1559964463932" duration="6282000" />
+      <workItem from="1559964463932" duration="8997000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559920512845</created>
@@ -621,14 +658,54 @@
       <option name="project" value="LOCAL" />
       <updated>1559967424663</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="6-5 二分搜索树的查询操作">
+      <created>1559974375378</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559974375378</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 29m 54s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 30m 09s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 32m 16s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 33m 19s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 46m 05s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 53m 47s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 54m 08s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 54m 49s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 55m 07s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.08 at 14h 55m 17s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8000000" />
+    <option name="totallyTimeSpent" value="10715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -643,16 +720,17 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297414" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.38852814" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.38685346" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43722942" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -703,7 +781,13 @@
     <MESSAGE value="6-2 二分搜索树基础" />
     <MESSAGE value="6-3 向二分搜索树中添加元素" />
     <MESSAGE value="6-4 改进添加操作：深入理解递归终止条件" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-4 改进添加操作：深入理解递归终止条件" />
+    <MESSAGE value="6-5 二分搜索树的查询操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-5 二分搜索树的查询操作" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -782,14 +866,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-Search-in-BST/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        <state relative-caret-position="359">
+          <caret line="114" column="52" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
           <folding>
             <element signature="e#1054#1055#0" expanded="true" />
             <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Search-in-BST/src/TestBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -846,7 +946,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>06Binary-Search-Tree-Basics</last-edited>
+          <last-edited>05-Search-in-BST</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
