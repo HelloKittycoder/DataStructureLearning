@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/07-InOrder-and-PostOrder-Traverse-in-BST/07-InOrder-and-PostOrder-Traverse-in-BST.iml" filepath="$PROJECT_DIR$/07-InOrder-and-PostOrder-Traverse-in-BST/07-InOrder-and-PostOrder-Traverse-in-BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/09-Non-Recursion-Preorder-Traverse-in-BST.iml" filepath="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/09-Non-Recursion-Preorder-Traverse-in-BST.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-Level-Traverse-in-BST/10-Level-Traverse-in-BST.iml" filepath="$PROJECT_DIR$/10-Level-Traverse-in-BST/10-Level-Traverse-in-BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/11-Remove-Min-and-Max-in-BST.iml" filepath="$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/11-Remove-Min-and-Max-in-BST.iml" />
     </modules>
   </component>
 </project>
