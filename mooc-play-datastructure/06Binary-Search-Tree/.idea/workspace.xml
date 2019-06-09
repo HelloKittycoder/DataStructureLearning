@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/11-Remove-Min-and-Max-in-BST.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/TestBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <list id="c284002a-db50-4d02-89ff-a39e554376f3" name="忽略" comment="">
       <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/12-Remove-Elements-in-BST/12-Remove-Elements-in-BST.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Remove-Elements-in-BST/src/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-Remove-Elements-in-BST/src/TestBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +24,25 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/BST.java">
+        <entry file="file://$PROJECT_DIR$/12-Remove-Elements-in-BST/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="235" column="20" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
+            <state relative-caret-position="294">
+              <caret line="281" column="73" selection-start-line="281" selection-start-column="73" selection-end-line="281" selection-end-column="73" />
+              <folding>
+                <element signature="e#5072#5073#0" expanded="true" />
+                <element signature="e#5103#5104#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TestBST.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/TestBST.java">
+        <entry file="file://$PROJECT_DIR$/12-Remove-Elements-in-BST/src/TestBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -86,6 +87,8 @@
         <option value="$PROJECT_DIR$/09-Non-Recursion-Preorder-Traverse-in-BST/src/BST.java" />
         <option value="$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/BST.java" />
         <option value="$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/TestBST.java" />
+        <option value="$PROJECT_DIR$/12-Remove-Elements-in-BST/src/BST.java" />
+        <option value="$PROJECT_DIR$/12-Remove-Elements-in-BST/src/TestBST.java" />
       </list>
     </option>
   </component>
@@ -113,8 +116,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="510" />
+    <option name="y" value="37" />
     <option name="width" value="1936" />
     <option name="height" value="1060" />
   </component>
@@ -469,6 +472,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -479,28 +483,6 @@
             <path>
               <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
               <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="07-InOrder-and-PostOrder-Traverse-in-BST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="07-InOrder-and-PostOrder-Traverse-in-BST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="10-Level-Traverse-in-BST" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="10-Level-Traverse-in-BST" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
               <item name="11-Remove-Min-and-Max-in-BST" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -512,15 +494,18 @@
             <path>
               <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
               <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
-              <item name="11-Remove-Min-and-Max-in-BST" type="462c0819:PsiDirectoryNode" />
+              <item name="12-Remove-Elements-in-BST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06Binary-Search-Tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06Binary-Search-Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="12-Remove-Elements-in-BST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BST" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -557,15 +542,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBST.test1">
+  <component name="RunManager" selected="JUnit.TestBST.test1 (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestBST.test1 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="09-Non-Recursion-Preorder-Traverse-in-BST" />
+    <configuration name="TestBST.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="12-Remove-Elements-in-BST" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -632,8 +617,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBST.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="07-InOrder-and-PostOrder-Traverse-in-BST" />
+    <configuration name="TestBST.test2 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="12-Remove-Elements-in-BST" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -688,19 +673,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestBST.test2" />
-      <item itemvalue="JUnit.TestBST.test1 (3)" />
       <item itemvalue="JUnit.TestBST.test1 (4)" />
       <item itemvalue="JUnit.TestBST.test1" />
       <item itemvalue="JUnit.TestBST.test2 (1)" />
+      <item itemvalue="JUnit.TestBST.test2 (2)" />
+      <item itemvalue="JUnit.TestBST.test1 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBST.test1 (1)" />
+        <item itemvalue="JUnit.TestBST.test2 (2)" />
         <item itemvalue="JUnit.TestBST.test1" />
         <item itemvalue="JUnit.TestBST.test2 (1)" />
         <item itemvalue="JUnit.TestBST.test1 (4)" />
-        <item itemvalue="JUnit.TestBST.test1 (3)" />
-        <item itemvalue="JUnit.TestBST.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -719,7 +704,8 @@
       <workItem from="1559920639419" duration="115000" />
       <workItem from="1559920778688" duration="1378000" />
       <workItem from="1559964463932" duration="19123000" />
-      <workItem from="1560052437489" duration="7716000" />
+      <workItem from="1560052437489" duration="8436000" />
+      <workItem from="1560084930992" duration="3925000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559920512845</created>
@@ -833,19 +819,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560053060129</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="6-11 删除二分搜索树的最大元素和最小元素">
+      <created>1560081640488</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1560081640488</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestBST_test2_(1) - 2019.06.09 at 12h 25m 44s.xml">
-      <configuration name="TestBST.test2 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBST_test2_(1) - 2019.06.09 at 12h 27m 52s.xml">
-      <configuration name="TestBST.test2 (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestBST_test2_(1) - 2019.06.09 at 14h 00m 59s.xml">
-      <configuration name="TestBST.test2 (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestBST_test2_(1) - 2019.06.09 at 14h 04m 18s.xml">
       <configuration name="TestBST.test2 (1)" configurationId="JUnit" />
     </history-entry>
@@ -867,12 +851,21 @@
     <history-entry file="TestBST_test1 - 2019.06.09 at 19h 56m 50s.xml">
       <configuration name="TestBST.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.09 at 19h 58m 13s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test1 - 2019.06.09 at 19h 58m 42s.xml">
+      <configuration name="TestBST.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBST_test2_(2) - 2019.06.09 at 22h 05m 49s.xml">
+      <configuration name="TestBST.test2 (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28557000" />
+    <option name="totallyTimeSpent" value="33202000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="510" y="37" width="1936" height="1060" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -895,10 +888,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.36580086" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51406926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25323275" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26705757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -964,7 +957,8 @@
     <MESSAGE value="6-7 二分搜索树的中序遍历和后序遍历" />
     <MESSAGE value="6-9 二分搜索树前序遍历的非递归实现" />
     <MESSAGE value="6-10 二分搜索树的层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-10 二分搜索树的层序遍历" />
+    <MESSAGE value="6-11 删除二分搜索树的最大元素和最小元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-11 删除二分搜索树的最大元素和最小元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1174,6 +1168,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/TestBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1181,13 +1185,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11-Remove-Min-and-Max-in-BST/src/TestBST.java">
+    <entry file="file://$PROJECT_DIR$/12-Remove-Elements-in-BST/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="294">
+          <caret line="281" column="73" selection-start-line="281" selection-start-column="73" selection-end-line="281" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5072#5073#0" expanded="true" />
+            <element signature="e#5103#5104#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-Remove-Elements-in-BST/src/TestBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1208,7 +1220,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1244,7 +1256,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>11-Remove-Min-and-Max-in-BST</last-edited>
+          <last-edited>12-Remove-Elements-in-BST</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
