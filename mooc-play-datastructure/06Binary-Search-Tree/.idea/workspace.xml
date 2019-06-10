@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="c284002a-db50-4d02-89ff-a39e554376f3" name="忽略" comment="">
-      <change beforePath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Linked-List/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" afterDir="false" />
-    </list>
     <list default="true" id="d84537aa-942a-4b47-8a78-45b127370375" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07Set-and-Map/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07Set-and-Map/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07Set-and-Map/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07Set-and-Map/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="c284002a-db50-4d02-89ff-a39e554376f3" name="忽略" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -702,7 +700,7 @@
       <workItem from="1559964463932" duration="19123000" />
       <workItem from="1560052437489" duration="8436000" />
       <workItem from="1560084930992" duration="5047000" />
-      <workItem from="1560170279546" duration="1420000" />
+      <workItem from="1560170279546" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559920512845</created>
@@ -866,7 +864,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35744000" />
+    <option name="totallyTimeSpent" value="35878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="340" y="218" width="1936" height="1056" extended-state="0" />
@@ -890,9 +888,9 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33874458" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.36580086" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.36580086" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27238807" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
