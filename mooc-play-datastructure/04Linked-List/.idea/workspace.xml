@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="" />
     <list default="true" id="a9da92d1-0a0d-47e8-9038-641f675558be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05Recursion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../06Binary-Search-Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06Binary-Search-Tree/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="333ea702-522f-4ef2-9536-a2f3e0bb054c" name="忽略" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +25,8 @@
           <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+                <state relative-caret-position="684">
+                  <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
                   <folding>
                     <element signature="e#3370#3371#0" expanded="true" />
                     <element signature="e#3402#3403#0" expanded="true" />
@@ -41,8 +40,8 @@
           <file leaf-file-name="TestLinkedList.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+                <state relative-caret-position="360">
+                  <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -50,12 +49,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="LinkedList2.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="414">
-                  <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
+                  <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -487,9 +486,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -534,12 +531,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../05Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -718,7 +717,8 @@
       <updated>1559835361258</updated>
       <workItem from="1559835367438" duration="2896000" />
       <workItem from="1559872306215" duration="15999000" />
-      <workItem from="1559967740351" duration="2270000" />
+      <workItem from="1559967740351" duration="2363000" />
+      <workItem from="1559970116789" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1559835574300</created>
@@ -783,7 +783,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559899339680</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="看完6-4后使用递归来改写链表的添加操作">
+      <created>1559970034671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559970034671</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -819,7 +826,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21165000" />
+    <option name="totallyTimeSpent" value="21265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -839,19 +846,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42207792" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32034633" />
       <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.42857143" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.20309168" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.20522387" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -905,7 +912,8 @@
     <MESSAGE value="4-5 从链表中删除元素" />
     <MESSAGE value="4-6 使用链表实现栈" />
     <MESSAGE value="4-7 带有尾指针的链表：使用链表实现队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-7 带有尾指针的链表：使用链表实现队列" />
+    <MESSAGE value="看完6-4后使用递归来改写链表的添加操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="看完6-4后使用递归来改写链表的添加操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,6 +921,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+          <folding>
+            <element signature="e#3370#3371#0" expanded="true" />
+            <element signature="e#3402#3403#0" expanded="true" />
+            <element signature="e#3459#3460#0" expanded="true" />
+            <element signature="e#3498#3499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/07-Implement-Queue-in-LinkedList/src/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
@@ -962,10 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,20 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,9 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="684">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding>
             <element signature="e#3370#3371#0" expanded="true" />
             <element signature="e#3402#3403#0" expanded="true" />
@@ -1083,17 +1097,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/LinkedList2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Remove-Element-in-LinkedList/src/TestLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
