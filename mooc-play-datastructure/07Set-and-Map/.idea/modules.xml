@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-Set-Basics-and-BSTSet/01-Set-Basics-and-BSTSet.iml" filepath="$PROJECT_DIR$/01-Set-Basics-and-BSTSet/01-Set-Basics-and-BSTSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-LinkedListSet/02-LinkedListSet.iml" filepath="$PROJECT_DIR$/02-LinkedListSet/02-LinkedListSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/07Set-and-Map.iml" filepath="$PROJECT_DIR$/07Set-and-Map.iml" />
     </modules>
   </component>
