@@ -57,6 +57,38 @@ public class TestMySparseArray {
     }
 
     @Test
+    public void test2() {
+        int[] a = {0, 0, 0, 22, 0, 0, 15,
+                0, 11, 0, 0, 0, 17, 0,
+                0, 0, 0, -6, 0, 0, 0,
+                0, 0, 0, 0, 0, 39, 0,
+                91, 0, 0, 0, 0, 0, 0,
+                0, 0, 28, 0, 0, 0, 0};
+        // 创建一个普通二维数组
+        int[][] arr = buildArray(a, 6, 7);
+        System.out.println("原始数组~~");
+        printTwoDimArray(arr);
+        System.out.println();
+
+        // 将二维数组转换成稀疏数组
+        int[][] sparseArray = convertToSparseArray(arr);
+        System.out.println("转换成稀疏数组~~");
+        printTwoDimArray(sparseArray);
+        System.out.println();
+
+        // 将稀疏数组写入文件
+        writeArrayToFile(sparseArray);
+        // 从文件中读取稀疏数组
+        String sourceDir = System.getProperty("user.dir");
+        int[][] newSparseArray = readArrayFromFile(new File(sourceDir + "\\arr.dat"));
+
+        // 将稀疏数组转换成普通二维数组
+        int[][] normalArray = convertToNormalArray(newSparseArray);
+        System.out.println("再转换成原始数组~~");
+        printTwoDimArray(normalArray);
+    }
+
+    @Test
     public void testWriteArrayToFile() {
         int[] a = {0, 0, 0, 22, 0, 0, 15,
                 0, 11, 0, 0, 0, 17, 0,
