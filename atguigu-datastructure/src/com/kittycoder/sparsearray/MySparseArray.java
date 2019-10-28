@@ -1,28 +1,10 @@
 package com.kittycoder.sparsearray;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by shucheng on 2019-10-27 下午 23:42
  * 自己根据课程里的思路写的稀疏数组
  */
 public class MySparseArray {
-
-    public static class Data {
-        private int row;
-        private int col;
-        private int value;
-
-        public Data() {
-        }
-
-        public Data(int row, int col, int value) {
-            this.row = row;
-            this.col = col;
-            this.value = value;
-        }
-    }
 
     /**
      * 将一维数组转换成二维数组
@@ -52,27 +34,30 @@ public class MySparseArray {
         int rows = intarr.length;
         int cols = intarr[0].length;
 
-        List<Data> dataList = new ArrayList<>();
-
+        int size = 0;
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                int val;
-                if ((val = intarr[i][j]) != 0) {
-                    dataList.add(new Data(i, j, val));
+                if (intarr[i][j] != 0) {
+                    size++;
                 }
             }
         }
 
-        int[][] array = new int[dataList.size()+1][3];
-        array[0] = new int[]{rows, cols, dataList.size()};
-        Data data;
-        for (int i = 1; i < dataList.size()+1; i++) {
-            data = dataList.get(i-1);
-            array[i][0] = data.row;
-            array[i][1] = data.col;
-            array[i][2] = data.value;
+        int[][] sparsearray = new int[size+1][3];
+        sparsearray[0] = new int[]{rows, cols, size};
+
+        int count = 0; // count用于记录是第几个非0数据
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (intarr[i][j] != 0) {
+                    count++;
+                    sparsearray[count][0] = i;
+                    sparsearray[count][1] = j;
+                    sparsearray[count][2] = intarr[i][j];
+                }
+            }
         }
-        return array;
+        return sparsearray;
     }
 
     /**
@@ -95,6 +80,21 @@ public class MySparseArray {
             intarr[row][col] = value;
         }
         return intarr;
+    }
+
+    /**
+     * 打印二维数组
+     * @param intarr
+     */
+    public static void printTwoDimArray(int[][] intarr) {
+        int rows = intarr.length;
+        int cols = intarr[0].length;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                System.out.printf("%d\t", intarr[i][j]);
+            }
+            System.out.println();
+        }
     }
 
     public static void main(String[] args) {
@@ -125,10 +125,19 @@ public class MySparseArray {
                    0, 0, 28, 0, 0, 0, 0};
         // 创建一个普通二维数组
         int[][] arr = buildArray(a, 6, 7);
+        System.out.println("原始数组~~");
+        printTwoDimArray(arr);
+        System.out.println();
+
         // 将二维数组转换成稀疏数组
         int[][] sparseArray = convertToSparseArray(arr);
+        System.out.println("转换成稀疏数组~~");
+        printTwoDimArray(sparseArray);
+        System.out.println();
+
         // 将稀疏数组转换成普通二维数组
         int[][] normalArray = convertToNormalArray(sparseArray);
-        System.out.println(normalArray);
+        System.out.println("再转换成原始数组~~");
+        printTwoDimArray(normalArray);
     }
 }
