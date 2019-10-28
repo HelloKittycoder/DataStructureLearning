@@ -1,9 +1,6 @@
 package com.kittycoder.sparsearray;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * Created by shucheng on 2019-10-27 下午 23:42
@@ -106,6 +103,7 @@ public class MySparseArray {
 
     /**
      * 将二维数组写入文件
+     * 参考链接：https://zhidao.baidu.com/question/323942172.html
      * @param intarr
      */
     public static void writeArrayToFile(int[][] intarr) {
@@ -129,5 +127,39 @@ public class MySparseArray {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 从文件中读取二维数组
+     * 参考链接：https://zhidao.baidu.com/question/711019168836675925.html
+     * @param file
+     */
+    public static int[][] readArrayFromFile(File file) {
+        int[][] resultArr = null;
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+
+            String content;
+            content = br.readLine(); // 读取第一行
+            String[] contentArr = content.split(",");
+            int rows = Integer.parseInt(contentArr[0]);
+            int cols = Integer.parseInt(contentArr[1]);
+            resultArr = new int[rows][cols];
+
+            int row = 0;
+            // 如果readLine读出来是null，说明读到结尾了
+            while ((content = br.readLine()) != null) {
+                // System.out.println(content);
+                contentArr = content.split(",");
+                for (int col = 0; col < cols; col++) {
+                    resultArr[row][col] = Integer.parseInt(contentArr[col]);
+                }
+                row++;
+            }
+            br.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return resultArr;
     }
 }

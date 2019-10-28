@@ -2,6 +2,8 @@ package com.kittycoder.sparsearray;
 
 import org.junit.Test;
 
+import java.io.File;
+
 import static com.kittycoder.sparsearray.MySparseArray.*;
 
 /**
@@ -65,5 +67,12 @@ public class TestMySparseArray {
         // 创建一个普通二维数组
         int[][] arr = buildArray(a, 6, 7);
         writeArrayToFile(arr);
+    }
+
+    @Test
+    public void testReadArrayFromFile() {
+        String sourceDir = System.getProperty("user.dir");
+        int[][] resultArr = readArrayFromFile(new File(sourceDir + "\\arr.dat"));
+        printTwoDimArray(resultArr);
     }
 }
