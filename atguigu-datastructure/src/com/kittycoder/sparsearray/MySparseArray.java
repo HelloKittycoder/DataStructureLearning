@@ -1,10 +1,17 @@
 package com.kittycoder.sparsearray;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 /**
  * Created by shucheng on 2019-10-27 下午 23:42
  * 自己根据课程里的思路写的稀疏数组
  */
 public class MySparseArray {
+
+    public static final String LINE_SEPARATOR = System.getProperty("line.separator");
 
     /**
      * 将一维数组转换成二维数组
@@ -97,47 +104,30 @@ public class MySparseArray {
         }
     }
 
-    public static void main(String[] args) {
-        /**
-         |0  0  0  22  0  0  15|
-         |0  11 0  0   0  17 0 |
-         |0  0  0  -6  0  0  0 |
-         |0  0  0  0   0  39 0 |
-         |91 0  0  0   0  0  0 |
-         |0  0  28 0   0  0  0 |
-         经过转换后结果为：
-          |行 列  值|
-         0|6  7  8 |
-         1|0  3  22|
-         2|0  6  15|
-         3|1  1  11|
-         4|1  5  17|
-         5|2  3  -6|
-         6|3  5  39|
-         7|4  0  91|
-         8|5  2  28|
-         */
-        int[] a = {0, 0, 0, 22, 0, 0, 15,
-                   0, 11, 0, 0, 0, 17, 0,
-                   0, 0, 0, -6, 0, 0, 0,
-                   0, 0, 0, 0, 0, 39, 0,
-                   91, 0, 0, 0, 0, 0, 0,
-                   0, 0, 28, 0, 0, 0, 0};
-        // 创建一个普通二维数组
-        int[][] arr = buildArray(a, 6, 7);
-        System.out.println("原始数组~~");
-        printTwoDimArray(arr);
-        System.out.println();
+    /**
+     * 将二维数组写入文件
+     * @param intarr
+     */
+    public static void writeArrayToFile(int[][] intarr) {
+        StringBuilder sb = new StringBuilder();
+        int rows = intarr.length;
+        int cols = intarr[0].length;
+        sb.append(rows + ",").append(cols + ",").append(LINE_SEPARATOR);
 
-        // 将二维数组转换成稀疏数组
-        int[][] sparseArray = convertToSparseArray(arr);
-        System.out.println("转换成稀疏数组~~");
-        printTwoDimArray(sparseArray);
-        System.out.println();
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                sb.append(intarr[i][j] + ",");
+            }
+            sb.append(LINE_SEPARATOR);
+        }
 
-        // 将稀疏数组转换成普通二维数组
-        int[][] normalArray = convertToNormalArray(sparseArray);
-        System.out.println("再转换成原始数组~~");
-        printTwoDimArray(normalArray);
+        BufferedWriter bw;
+        try {
+            bw = new BufferedWriter(new FileWriter("arr.dat"));
+            bw.write(sb.toString());
+            bw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
