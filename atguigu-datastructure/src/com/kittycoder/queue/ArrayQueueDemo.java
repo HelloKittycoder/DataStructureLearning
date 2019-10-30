@@ -5,6 +5,11 @@ import java.util.Scanner;
 /**
  * 数组模拟队列代码实现
  * Created by shucheng on 2019-10-30 上午 8:45
+ *
+ * 问题分析：
+ * 目前数组使用一次就不能再用了，没有达到复用的效果
+ *
+ * 优化：改成一个环形队列（采用取模 %）
  */
 public class ArrayQueueDemo {
 
@@ -125,5 +130,10 @@ class ArrayQueue {
             throw new RuntimeException("队列空的，没有数据~~");
         }
         return arr[front + 1];
+    }
+
+    // 获取队列元素个数
+    public int size() {
+        return rear - front;
     }
 }

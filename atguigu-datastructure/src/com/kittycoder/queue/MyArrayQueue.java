@@ -3,6 +3,12 @@ package com.kittycoder.queue;
 /**
  * Created by shucheng on 2019-10-29 上午 8:51
  * 自己根据课程里的思路写的数组队列
+ *
+ * 说明：这个数组队列对于size是手动进行维护的，以及入队、出队操作都需要修改size，
+ * 判断isFull()和isEmpty()是通过size来做的
+ *
+ * ArrayQueueDemo的size是通过front和rear算出来的，入队、出队操作不需要改size，
+ * 判断isFull()和isEmpty()是通过front与rear的关系来算的
  */
 public class MyArrayQueue {
 
@@ -31,6 +37,11 @@ public class MyArrayQueue {
 
     // 入队
     public void enqueue(int e) {
+        // 判断队列是否已满
+        if (isFull()) {
+            System.out.println("队列满，不能加入数据~");
+            return;
+        }
         arr[size] = e;
         rear++;
         size++;
@@ -38,6 +49,11 @@ public class MyArrayQueue {
 
     // 出队
     public int dequeue() {
+        // 判断队列是否为空
+        if (isEmpty()) {
+            // 抛出异常
+            throw new RuntimeException("队列空，不能取数据");
+        }
         int old = arr[front+1];
         arr[front+1] = 0;
         front++;
@@ -48,6 +64,16 @@ public class MyArrayQueue {
     // 获取队列元素个数
     public int size() {
         return size;
+    }
+
+    // 判断队列是否满
+    public boolean isFull() {
+        return size == getCapacity();
+    }
+
+    // 判断队列是否为空
+    public boolean isEmpty() {
+        return size == 0;
     }
 
     // 打印ArrayQueue
@@ -68,6 +94,7 @@ public class MyArrayQueue {
 
     public static void main(String[] args) {
         MyArrayQueue m = new MyArrayQueue();
+        System.out.println("是否为空：" + m.isEmpty());
         System.out.println("队列默认容量为：" + m.getCapacity());
         System.out.println("执行入队操作");
         m.enqueue(2);
