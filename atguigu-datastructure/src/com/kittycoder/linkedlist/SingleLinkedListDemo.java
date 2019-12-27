@@ -30,7 +30,7 @@ public class SingleLinkedListDemo {
         for (int i = 0; i < 1000; i++) {
             int  no = (int) (Math.random() * i);
             HeroNode h = new HeroNode(no, "张三" + no, "昵称" + no);
-            singleLinkedList.addByOrder(h);
+            singleLinkedList.addByOrder2(h);
         }
 
         // 显示链表数据
@@ -94,6 +94,38 @@ class SingleLinkedList {
                 System.out.println(heroNode + "和节点" + currentNode +"的no重复");
                 break;
             }
+        }
+    }
+
+    // 添加英雄时，根据排名将英雄插入指定位置
+    // （如果有这个排名，则添加失败，并给出提示）
+    // （课程里的实现，比我的更优：1.只用了一个temp变量；2.思路更清晰）
+    public void addByOrder2(HeroNode heroNode) {
+        // 因为头节点不能动，因此我们仍然通过一个辅助指针（变量）来帮助找到添加的位置
+        // 因为是单链表，我们要找的temp是位于添加位置的前一个节点，如果是后一个节点插入不了
+        // 说明：其实是后一个节点的话也可以插入addByOrder（用两个变量可以实现）
+        HeroNode temp = head;
+        // 找到需要从哪个位置放节点
+        boolean flag = false; // 记录是否有相同编号的节点，默认为false
+        while (true) {
+            if (temp.next == null) { // 说明temp已经在链表的最后
+                break;
+            }
+            if (temp.next.no > heroNode.no) { // 位置找到，就在temp的后面插入
+                break;
+            } else if (temp.next.no == heroNode.no) { // 说明希望添加的heroNode的编号已经存在
+                flag = true; // 说明编号存在
+                break;
+            }
+            temp = temp.next; // 后移，遍历当前列表
+        }
+        // 判断flag的值
+        if (flag) { // 说明编号已经存在，不能添加
+            System.out.printf("准备插入的英雄的编号%d已经存在了，不能加入\n", heroNode.no);
+        } else {
+            // 插入到链表中，temp的后面
+            heroNode.next = temp.next;
+            temp.next = heroNode;
         }
     }
 
