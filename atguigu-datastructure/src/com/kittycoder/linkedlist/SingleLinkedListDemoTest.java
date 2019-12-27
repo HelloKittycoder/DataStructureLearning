@@ -77,4 +77,29 @@ public class SingleLinkedListDemoTest {
         System.out.println("修改后的链表情况");
         singleLinkedList.list();
     }
+
+    @Test
+    public void testDel() {
+        // 先创建节点
+        HeroNode heroNode1 = new HeroNode(1, "宋江", "及时雨");
+        HeroNode heroNode2 = new HeroNode(2, "卢俊义", "玉麒麟");
+        HeroNode heroNode3 = new HeroNode(3, "吴用", "智多星");
+        HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");
+
+        // 创建链表
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        singleLinkedList.addByOrder2(heroNode4);
+        singleLinkedList.addByOrder2(heroNode1);
+        singleLinkedList.addByOrder2(heroNode3);
+        singleLinkedList.addByOrder2(heroNode2);
+
+        singleLinkedList.list();
+        singleLinkedList.del(2);
+        singleLinkedList.del(4);
+        singleLinkedList.del(3);
+        singleLinkedList.del(1);
+
+        System.out.println("删除后的链表情况");
+        singleLinkedList.list();
+    }
 }

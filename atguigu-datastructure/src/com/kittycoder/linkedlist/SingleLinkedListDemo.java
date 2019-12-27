@@ -129,6 +129,32 @@ class SingleLinkedList {
         }
     }
 
+    // 删除节点
+    // 思路
+    // 1.head不能动，因此我们需要一个temp辅助节点找到待删除节点的前一个节点
+    // 2.我们在比较时，是将temp.next.no和需要删除的节点的no进行比较
+    public void del(int no) {
+        HeroNode temp = head;
+        // 通过遍历找到需要删除的节点
+        boolean flag = false;
+        while (true) {
+            if (temp.next == null) {
+                break; // 已经遍历完链表
+            }
+            if (temp.next.no == no) {
+                flag = true;
+                break;
+            }
+            temp = temp.next;
+        }
+        if (flag) { // 找到
+            // 可以删除
+            temp.next = temp.next.next;
+        } else {
+            System.out.printf("没有找到编号%d的节点，不能删除\n", no);
+        }
+    }
+
     // 显示链表[遍历]
     public void list() {
         // 判断链表是否为空
