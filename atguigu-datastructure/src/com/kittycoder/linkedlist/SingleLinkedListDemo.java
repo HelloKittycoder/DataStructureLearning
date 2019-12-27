@@ -3,25 +3,35 @@ package com.kittycoder.linkedlist;
 /**
  * Created by shucheng on 2019/12/24 22:14
  * 实现一个单向链表
- * 添加英雄时，直接添加到链表的尾部
  */
 public class SingleLinkedListDemo {
     public static void main(String[] args) {
         // 进行测试
         // 先创建节点
-        HeroNode heroNode1 = new HeroNode(1, "宋江", "及时雨");
+        /*HeroNode heroNode1 = new HeroNode(1, "宋江", "及时雨");
         HeroNode heroNode2 = new HeroNode(2, "卢俊义", "玉麒麟");
         HeroNode heroNode3 = new HeroNode(3, "吴用", "智多星");
-        HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");
+        HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");*/
 
         // 创建链表
         SingleLinkedList singleLinkedList = new SingleLinkedList();
 
         // 向链表添加数据
-        singleLinkedList.add(heroNode1);
+        /*singleLinkedList.add(heroNode1);
         singleLinkedList.add(heroNode2);
         singleLinkedList.add(heroNode3);
-        singleLinkedList.add(heroNode4);
+        singleLinkedList.add(heroNode4);*/
+
+        /*singleLinkedList.addByOrder(heroNode4);
+        singleLinkedList.addByOrder(heroNode1);
+        singleLinkedList.addByOrder(heroNode3);
+        singleLinkedList.addByOrder(heroNode2);*/
+
+        for (int i = 0; i < 1000; i++) {
+            int  no = (int) (Math.random() * i);
+            HeroNode h = new HeroNode(no, "张三" + no, "昵称" + no);
+            singleLinkedList.addByOrder(h);
+        }
 
         // 显示链表数据
         singleLinkedList.list();
@@ -33,12 +43,8 @@ class SingleLinkedList {
     // 先初始化一个头节点，头节点不要动，不存放具体的数据
     private HeroNode head = new HeroNode(0, "", "");
 
-    // 返回头节点
-    public HeroNode getHead() {
-        return head;
-    }
-
     // 添加节点到单向链表
+    // 添加英雄时，直接添加到链表的尾部
     // 思路，当不考虑编号顺序时
     // 1.找到当前链表的最后节点
     // 2.将最后这个节点的next指向新的节点
@@ -56,6 +62,39 @@ class SingleLinkedList {
         // 当退出while循环时，temp就指向了链表的最后
         // 将最后这个节点的next指向新的节点
         temp.next = heroNode;
+    }
+
+    // 添加英雄时，根据排名将英雄插入指定位置
+    // （如果有这个排名，则添加失败，并给出提示）
+    public void addByOrder(HeroNode heroNode) {
+        // 判断链表是否为空
+        if (head.next == null) {
+            head.next = heroNode;
+            return;
+        }
+        // 找到需要从哪个位置放节点
+        HeroNode currentNode = head.next;
+        HeroNode beforeNode = head;
+        while (true) {
+            // 判断是否到链表最后
+            if (currentNode == null) {
+                beforeNode.next = heroNode;
+                break;
+            }
+            // 如果节点编号小于待放入节点编号，说明待放入节点应该放到当前节点后面
+            if (currentNode.no < heroNode.no) {
+                beforeNode = currentNode;
+                currentNode = currentNode.next;
+            } else if (currentNode.no > heroNode.no) {
+                // 如果节点编号大于待放入节点编号，说明待放入节点应该放到当前节点之前
+                beforeNode.next = heroNode;
+                heroNode.next = currentNode;
+                break;
+            } else {
+                System.out.println(heroNode + "和节点" + currentNode +"的no重复");
+                break;
+            }
+        }
     }
 
     // 显示链表[遍历]
