@@ -5,37 +5,6 @@ package com.kittycoder.linkedlist;
  * 实现一个单向链表
  */
 public class SingleLinkedListDemo {
-    public static void main(String[] args) {
-        // 进行测试
-        // 先创建节点
-        /*HeroNode heroNode1 = new HeroNode(1, "宋江", "及时雨");
-        HeroNode heroNode2 = new HeroNode(2, "卢俊义", "玉麒麟");
-        HeroNode heroNode3 = new HeroNode(3, "吴用", "智多星");
-        HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");*/
-
-        // 创建链表
-        SingleLinkedList singleLinkedList = new SingleLinkedList();
-
-        // 向链表添加数据
-        /*singleLinkedList.add(heroNode1);
-        singleLinkedList.add(heroNode2);
-        singleLinkedList.add(heroNode3);
-        singleLinkedList.add(heroNode4);*/
-
-        /*singleLinkedList.addByOrder(heroNode4);
-        singleLinkedList.addByOrder(heroNode1);
-        singleLinkedList.addByOrder(heroNode3);
-        singleLinkedList.addByOrder(heroNode2);*/
-
-        for (int i = 0; i < 1000; i++) {
-            int  no = (int) (Math.random() * i);
-            HeroNode h = new HeroNode(no, "张三" + no, "昵称" + no);
-            singleLinkedList.addByOrder2(h);
-        }
-
-        // 显示链表数据
-        singleLinkedList.list();
-    }
 }
 
 // 定义SingleLinkedList管理我们的英雄
@@ -126,6 +95,37 @@ class SingleLinkedList {
             // 插入到链表中，temp的后面
             heroNode.next = temp.next;
             temp.next = heroNode;
+        }
+    }
+
+    // 修改节点的信息，根据no编号来修改，即no编号不能改
+    // 说明：
+    // 1.根据newHeroNode的no来修改即可
+    public void update(HeroNode newHeroNode) {
+        // 判断是否为空
+        if (head.next == null) {
+            System.out.println("链表为空，未修改");
+            return;
+        }
+        HeroNode temp = head.next;
+        // 通过遍历找到需要修改的节点
+        boolean isFound = false;
+        while (true) {
+            if (temp == null) {
+                break; // 已经遍历完链表
+            }
+            if (temp.no == newHeroNode.no) {
+                isFound = true;
+                break;
+            }
+            temp = temp.next;
+        }
+
+        if (isFound) {
+            temp.name = newHeroNode.name;
+            temp.nickname = newHeroNode.nickname;
+        } else {
+            System.out.printf("没有找到编号%d的节点，不能修改\n", newHeroNode.no);
         }
     }
 
