@@ -316,6 +316,83 @@ class SingleLinkedList {
             System.out.println(stack.pop());
         }
     }
+
+    // mergeLinkedList,mergeLinkedList2两种思路，是否克隆都行
+    // 合并两个有序的单链表（不影响原有链表）
+    // 思路：将head2中的每个节点放到head1中对应的位置，自己想的
+    public static SingleLinkedList mergeLinkedList(HeroNode head1, HeroNode head2) {
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        // 克隆head1中所有节点，并加到singleLinkedList中
+        HeroNode oldTemp = head1.next; // 用来遍历旧的单链表的指针
+        HeroNode newTemp = singleLinkedList.getHead(); // 用来遍历新的单链表的指针
+        while (oldTemp != null) {
+            HeroNode cloneTemp = cloneNode(oldTemp);
+            newTemp.next = cloneTemp;
+            newTemp = cloneTemp;
+            oldTemp = oldTemp.next;
+        }
+
+        // 将head2中的节点克隆，加到singleLinkedList中，并保证有序
+        oldTemp = head2.next;
+        while (oldTemp != null) {
+            HeroNode cloneTemp = cloneNode(oldTemp);
+            singleLinkedList.addByOrder2(cloneTemp);
+            oldTemp = oldTemp.next;
+        }
+        return singleLinkedList;
+    }
+
+    // 合并两个有序的单链表（会影响原有链表）
+    // 遍历两个单链表：链表中哪个更小，就把它加到新的链表中去（这种思路更巧妙），课程里的方法
+    // 参考：https://www.cnblogs.com/guweiwei/p/6855626.html
+    public static SingleLinkedList mergeLinkedList2(HeroNode head1, HeroNode head2) {
+        if (head1.next == null) {
+            return new SingleLinkedList(head2);
+        }
+        if (head2.next == null) {
+            return new SingleLinkedList(head1);
+        }
+
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        HeroNode head = singleLinkedList.getHead(); // 新链表的头节点
+        HeroNode current = head; // 指向新链表的最后一个节点
+        head1 = head1.next;
+        head2 = head2.next;
+        // 获取新链表的head节点后的第一个节点
+        if (head1.no < head2.no) {
+            head.next = head1;
+            current = current.next;
+            head1 = head1.next;
+        } else {
+            head.next = head2;
+            current = current.next;
+            head2 = head2.next;
+        }
+
+        // 获取新链表的head节点的第二个及以后的节点
+        while (head1 != null && head2 != null) {
+            if (head1.no < head2.no) {
+                current.next = head1;
+                current = current.next;
+                head1 = head1.next;
+            } else {
+                current.next = head2;
+                current = current.next;
+                head2 = head2.next;
+            }
+        }
+
+        // 合并剩余的元素
+        if (head1 != null) {
+            // 说明链表2遍历完了，是空的
+            current.next = head1;
+        }
+        if (head2 != null) {
+            // 说明链表1遍历完了，是空的
+            current.next = head2;
+        }
+        return singleLinkedList;
+    }
 }
 
 // 定义HeroNode

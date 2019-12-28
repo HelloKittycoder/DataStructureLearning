@@ -141,27 +141,33 @@ public class SingleLinkedListDemoTest {
         System.out.println(SingleLinkedList.findLastIndexNode(head, 2));
     }
 
-    private SingleLinkedList generateList() {
-        // 先创建节点
-        HeroNode heroNode1 = new HeroNode(1, "宋江", "及时雨");
-        HeroNode heroNode2 = new HeroNode(2, "卢俊义", "玉麒麟");
-        HeroNode heroNode3 = new HeroNode(3, "吴用", "智多星");
-        HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");
-
+    // 会进行顺序调整
+    private SingleLinkedList generateListByOrder(HeroNode... heroNodes) {
         // 创建链表
         SingleLinkedList singleLinkedList = new SingleLinkedList();
-        singleLinkedList.add(heroNode4);
-        singleLinkedList.add(heroNode1);
-        singleLinkedList.add(heroNode3);
-        singleLinkedList.add(heroNode2);
+        for (HeroNode h : heroNodes) {
+            singleLinkedList.addByOrder2(h);
+        }
+        return singleLinkedList;
+    }
 
+    // 不会进行顺序调整
+    private SingleLinkedList generateListNoOrder(HeroNode... heroNodes) {
+        // 创建链表
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
+        for (HeroNode h : heroNodes) {
+            singleLinkedList.add(h);
+        }
         return singleLinkedList;
     }
 
     @Test
     public void testReverseLinkedList() {
         // 创建链表
-        SingleLinkedList singleLinkedList = generateList();
+        SingleLinkedList singleLinkedList = generateListNoOrder(new HeroNode(1, "宋江", "及时雨"),
+                new HeroNode(2, "卢俊义", "玉麒麟"),
+                new HeroNode(3, "吴用", "智多星"),
+                new HeroNode(4, "林冲", "豹子头"));
 
         HeroNode head = singleLinkedList.getHead();
         SingleLinkedList singleLinkedList2 = SingleLinkedList.reverseLinkedList(head);
@@ -172,7 +178,10 @@ public class SingleLinkedListDemoTest {
     @Test
     public void testReverseLinkedList2() {
         // 创建链表
-        SingleLinkedList singleLinkedList = generateList();
+        SingleLinkedList singleLinkedList = generateListNoOrder(new HeroNode(1, "宋江", "及时雨"),
+                new HeroNode(2, "卢俊义", "玉麒麟"),
+                new HeroNode(3, "吴用", "智多星"),
+                new HeroNode(4, "林冲", "豹子头"));
 
         HeroNode head = singleLinkedList.getHead();
         SingleLinkedList singleLinkedList2 = SingleLinkedList.reverseLinkedList2(head);
@@ -183,11 +192,31 @@ public class SingleLinkedListDemoTest {
     @Test
     public void testReversePrint() {
         // 创建链表
-        SingleLinkedList singleLinkedList = generateList();
+        SingleLinkedList singleLinkedList = generateListNoOrder(new HeroNode(1, "宋江", "及时雨"),
+                new HeroNode(2, "卢俊义", "玉麒麟"),
+                new HeroNode(3, "吴用", "智多星"),
+                new HeroNode(4, "林冲", "豹子头"));
         singleLinkedList.list();
 
         HeroNode head = singleLinkedList.getHead();
         System.out.println("测试逆序打印单链表，没有改变原链表的结构");
         SingleLinkedList.reversePrint2(head);
+    }
+
+    @Test
+    public void testMergeLinkedList() {
+        // 创建链表
+        SingleLinkedList singleLinkedList1 = generateListByOrder(new HeroNode(1, "宋江", "及时雨"),
+                new HeroNode(2, "卢俊义", "玉麒麟"),
+                new HeroNode(3, "吴用", "智多星"),
+                new HeroNode(4, "林冲", "豹子头"));
+        SingleLinkedList singleLinkedList2 = generateListByOrder(new HeroNode(7, "王五", "ww"),
+                new HeroNode(5, "张三", "zs"),
+                new HeroNode(6, "李四", "ls"),
+                new HeroNode(8, "赵六", "zl"));
+
+        SingleLinkedList s = SingleLinkedList.mergeLinkedList2(singleLinkedList1.getHead(), singleLinkedList2.getHead());
+        System.out.println("合并后的结果");
+        s.list();
     }
 }
