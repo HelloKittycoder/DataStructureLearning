@@ -12,6 +12,13 @@ class SingleLinkedList {
     // 先初始化一个头节点，头节点不要动，不存放具体的数据
     private HeroNode head = new HeroNode(0, "", "");
 
+    public SingleLinkedList() {}
+
+    // 通过头节点来创建一个单链表
+    public SingleLinkedList(HeroNode head) {
+        this.head = head;
+    }
+
     // 添加节点到单向链表
     // 添加英雄时，直接添加到链表的尾部
     // 思路，当不考虑编号顺序时
@@ -223,6 +230,45 @@ class SingleLinkedList {
             temp = temp.next;
         }
         return temp;
+    }
+
+    // 单链表反转（自己的思路，效率比较低）
+    public static SingleLinkedList reverseLinkedList(HeroNode head) {
+        int length = getLength(head);
+        SingleLinkedList s = new SingleLinkedList();
+        for (int i = 1; i <= length; i++) {
+            HeroNode node = cloneNode(findLastIndexNode(head, i));
+            s.add(node);
+        }
+        return s;
+    }
+
+    // 避免在单链表反转过程中在原来的node中生成循环引用，取不到节点数量
+    public static HeroNode cloneNode(HeroNode oldNode) {
+        HeroNode heroNode = new HeroNode(oldNode.no, oldNode.name, oldNode.nickname);
+        return heroNode;
+    }
+
+    // 课程中的思路（使用头插法）
+    public static SingleLinkedList reverseLinkedList2(HeroNode head) {
+        SingleLinkedList s = new SingleLinkedList(head);
+        // 如果当前链表为空，或者只有一个节点，无需反转，直接返回
+        if (head.next == null || head.next.next == null) {
+            return s;
+        }
+        // 定义一个辅助的指针（变量），帮助我们遍历原来的链表
+        HeroNode temp = head.next;
+        HeroNode oldNext = null;
+        HeroNode reverseHead = new HeroNode(0, "", "");
+        while (temp != null) {
+            oldNext = temp.next; // 先暂时保存当前节点的下一个节点
+            // 以下两行代码是关键：
+            temp.next = reverseHead.next; // 断开节点原来的链接，然后指向新的head的下一个节点
+            reverseHead.next = temp; // 将新的head的下一个节点指向temp
+            temp = oldNext;
+        }
+        head.next = reverseHead.next;
+        return s;
     }
 }
 
