@@ -1,5 +1,7 @@
 package com.kittycoder.linkedlist;
 
+import java.util.Stack;
+
 /**
  * Created by shucheng on 2019/12/24 22:14
  * 实现一个单向链表
@@ -269,6 +271,50 @@ class SingleLinkedList {
         }
         head.next = reverseHead.next;
         return s;
+    }
+
+    // 从尾到头打印单链表（使用数组存放节点）
+    public static void reversePrint(HeroNode head) {
+        /*将原有单链表反转，再打印（这种确实能逆序打印，但是影响了原有的数据结构）
+        SingleLinkedList singleLinkedList = reverseLinkedList2(head);
+        singleLinkedList.list();*/
+
+        HeroNode temp = head.next;
+        if (temp == null) { // 当前链表为空
+            return;
+        }
+        // 将链表元素倒序存放到数组中
+        int lenth = getLength(head);
+        HeroNode[] nodeArr = new HeroNode[lenth];
+        for (int i = 0; i < lenth; i++) {
+            if (temp == null) {
+                break;
+            }
+            nodeArr[lenth - i - 1] = temp;
+            temp = temp.next;
+        }
+        // 打印数组元素
+        for (int i = 0; i < lenth; i++) {
+            System.out.println(nodeArr[i]);
+        }
+    }
+
+    // 从尾到头打印单链表（使用栈存放节点）
+    public static void reversePrint2(HeroNode head) {
+        HeroNode temp = head.next;
+        if (temp == null) { // 当前链表为空
+            return;
+        }
+        // 创建一个栈，将所有节点压入栈中
+        Stack<HeroNode> stack = new Stack<>();
+        while (temp != null) {
+            stack.push(temp);
+            temp = temp.next;
+        }
+        // 弹出栈中的所有节点
+        while (stack.size() > 0) { // 或写成 !stack.isEmpty()
+            System.out.println(stack.pop());
+        }
     }
 }
 

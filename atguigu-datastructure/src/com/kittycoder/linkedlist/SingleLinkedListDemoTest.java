@@ -141,8 +141,7 @@ public class SingleLinkedListDemoTest {
         System.out.println(SingleLinkedList.findLastIndexNode(head, 2));
     }
 
-    @Test
-    public void testReverseLinkedList() {
+    private SingleLinkedList generateList() {
         // 先创建节点
         HeroNode heroNode1 = new HeroNode(1, "宋江", "及时雨");
         HeroNode heroNode2 = new HeroNode(2, "卢俊义", "玉麒麟");
@@ -155,6 +154,14 @@ public class SingleLinkedListDemoTest {
         singleLinkedList.add(heroNode1);
         singleLinkedList.add(heroNode3);
         singleLinkedList.add(heroNode2);
+
+        return singleLinkedList;
+    }
+
+    @Test
+    public void testReverseLinkedList() {
+        // 创建链表
+        SingleLinkedList singleLinkedList = generateList();
 
         HeroNode head = singleLinkedList.getHead();
         SingleLinkedList singleLinkedList2 = SingleLinkedList.reverseLinkedList(head);
@@ -164,22 +171,23 @@ public class SingleLinkedListDemoTest {
 
     @Test
     public void testReverseLinkedList2() {
-        // 先创建节点
-        HeroNode heroNode1 = new HeroNode(1, "宋江", "及时雨");
-        HeroNode heroNode2 = new HeroNode(2, "卢俊义", "玉麒麟");
-        HeroNode heroNode3 = new HeroNode(3, "吴用", "智多星");
-        HeroNode heroNode4 = new HeroNode(4, "林冲", "豹子头");
-
         // 创建链表
-        SingleLinkedList singleLinkedList = new SingleLinkedList();
-        singleLinkedList.add(heroNode4);
-        singleLinkedList.add(heroNode1);
-        singleLinkedList.add(heroNode3);
-        singleLinkedList.add(heroNode2);
+        SingleLinkedList singleLinkedList = generateList();
 
         HeroNode head = singleLinkedList.getHead();
         SingleLinkedList singleLinkedList2 = SingleLinkedList.reverseLinkedList2(head);
         System.out.println("反转后的单链表");
         singleLinkedList2.list();
+    }
+
+    @Test
+    public void testReversePrint() {
+        // 创建链表
+        SingleLinkedList singleLinkedList = generateList();
+        singleLinkedList.list();
+
+        HeroNode head = singleLinkedList.getHead();
+        System.out.println("测试逆序打印单链表，没有改变原链表的结构");
+        SingleLinkedList.reversePrint2(head);
     }
 }
