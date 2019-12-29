@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by shucheng on 2019/12/27 23:13
  */
-public class SingleLinkedListDemoTest {
+public class SingleLinkedListTest {
 
     @Test
     public void testAdd() {

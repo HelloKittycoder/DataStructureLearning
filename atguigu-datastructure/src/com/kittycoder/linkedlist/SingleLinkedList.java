@@ -6,11 +6,8 @@ import java.util.Stack;
  * Created by shucheng on 2019/12/24 22:14
  * 实现一个单向链表
  */
-public class SingleLinkedListDemo {
-}
-
 // 定义SingleLinkedList管理我们的英雄
-class SingleLinkedList {
+public class SingleLinkedList {
     // 先初始化一个头节点，头节点不要动，不存放具体的数据
     private HeroNode head = new HeroNode(0, "", "");
 
