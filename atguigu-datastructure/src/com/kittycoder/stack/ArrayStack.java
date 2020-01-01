@@ -46,6 +46,15 @@ public class ArrayStack<E> {
         stack[top] = e;
     }
 
+    // 查看栈顶元素
+    public E peek() {
+        if (isEmpty()) {
+            // 抛出异常
+            throw new RuntimeException("栈空，没有数据");
+        }
+        return stack[top];
+    }
+
     // 出栈，将栈顶的元素返回
     public E pop() {
         if (isEmpty()) {
