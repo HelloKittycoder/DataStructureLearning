@@ -16,10 +16,29 @@ public class Calculator2 {
 
     // 计算符号表达式
     public void calculate(String calcStr) {
+        String keepNum = "";
         for (int i = 0; i < calcStr.length(); i++) {
             char c = calcStr.charAt(i);
             if (isNumber(c)) {
-                numberStack.push(getNumber(c));
+                // 分析思路
+                // 1.当处理多位数时，不能发现是一个数就直接入栈，因为它可能是多位数
+                // 2.在处理数时，需要向表达式的index后再看一位，如果是数就进行扫描，如果是符号才入栈
+                // 3.因此我们需要定义一个变量字符串，用于拼接
+                // 处理多位数
+                keepNum += c;
+
+                if (i == calcStr.length() - 1) {
+                    numberStack.push(Integer.parseInt(keepNum));
+                } else {
+                    // 判断下一个字符是不是数字，如果是数字，就继续扫描；如果是运算符，则入栈
+                    // 注意是看后一位，不是index++
+                    if (isOperator(calcStr.charAt(i + 1))) {
+                        // 如果后一位是运算符，则入栈 keepNum = "1"或者"123"
+                        numberStack.push(Integer.parseInt(keepNum));
+                        // important!! keepNum清空
+                        keepNum = "";
+                    }
+                }
             }
             // 如果有符号
             if (isOperator(c)) {
@@ -42,8 +61,8 @@ public class Calculator2 {
             }
         }
         while (!symbolStack.isEmpty()) {
-            int b = (int) numberStack.pop();
-            int a = (int) numberStack.pop();
+            int b = numberStack.pop();
+            int a = numberStack.pop();
             int topSymbol = symbolStack.pop();
             int result = operate(a, b, topSymbol);
 
@@ -100,7 +119,7 @@ public class Calculator2 {
         Calculator2 c = new Calculator2();
         c.calculate("3+2*6-2"); // 13
         c.calculate("7*2*2-5+1-5+3-4"); // 18
-        // c.calculate("70+2*6-4"); // 这里算出来的是8，显然是错的
+        c.calculate("70+2*6-4"); // 这里算出来的是8，显然是错的，正确的是78
     }
 
     class ArrayStack {

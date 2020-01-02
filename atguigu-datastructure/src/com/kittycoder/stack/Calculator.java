@@ -19,7 +19,14 @@ public class Calculator {
         for (int i = 0; i < calcStr.length(); i++) {
             char c = calcStr.charAt(i);
             if (isNumber(c)) {
-                numberStack.push(getNumber(c));
+                String str = String.valueOf(c);
+                // 如果是数字，不能直接入栈，应该向后多看一位
+                while (i < calcStr.length() - 1 && isNumber(calcStr.charAt(i + 1))) {
+                    i++;
+                    // str += String.valueOf(calcStr.charAt(i));
+                    str += calcStr.charAt(i);
+                }
+                numberStack.push(Integer.parseInt(str));
             }
             // 如果有符号
             if (isOperator(c)) {
@@ -103,6 +110,6 @@ public class Calculator {
         Calculator c = new Calculator();
         c.calculate("3+2*6-2"); // 13
         c.calculate("7*2*2-5+1-5+3-4"); // 18
-        // c.calculate("70+2*6-4");  // 这里算出来的是8，显然是错的
+        c.calculate("70+2*6-4");  // 这里算出来的是8，显然是错的，正确的是78
     }
 }
