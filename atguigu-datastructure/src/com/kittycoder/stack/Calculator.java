@@ -10,7 +10,8 @@ public class Calculator {
     private ArrayStack<String> symbolStack; // 符号栈
 
     public Calculator() {
-        resetCalc();
+        this.numberStack = new ArrayStack<>();
+        this.symbolStack = new ArrayStack<>();
     }
 
     // 计算符号表达式
@@ -50,14 +51,7 @@ public class Calculator {
 
             numberStack.push(result);
         }
-        System.out.println(numberStack.peek());
-        resetCalc();
-    }
-
-    // 重置计算器
-    private void resetCalc() {
-        this.numberStack = new ArrayStack<>();
-        this.symbolStack = new ArrayStack<>();
+        System.out.printf("%s=%s\n",calcStr, numberStack.pop());
     }
 
     public static int operate(int a, int b, String operator) {
@@ -109,5 +103,6 @@ public class Calculator {
         Calculator c = new Calculator();
         c.calculate("3+2*6-2"); // 13
         c.calculate("7*2*2-5+1-5+3-4"); // 18
+        // c.calculate("70+2*6-4");  // 这里算出来的是8，显然是错的
     }
 }
