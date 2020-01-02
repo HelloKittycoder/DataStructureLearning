@@ -8,10 +8,12 @@ public class Calculator {
 
     private ArrayStack<Integer> numberStack; // 数栈
     private ArrayStack<String> symbolStack; // 符号栈
+    private ArrayStack<String> bracketStack; // 括号栈
 
     public Calculator() {
         this.numberStack = new ArrayStack<>();
         this.symbolStack = new ArrayStack<>();
+        this.bracketStack = new ArrayStack<>();
     }
 
     // 计算符号表达式
@@ -30,6 +32,23 @@ public class Calculator {
             }
             // 如果有符号
             if (isOperator(c)) {
+                // 处理括号
+                if (c == '(') {
+                    // 如果遇到(，就直接往bracketStack里放
+                    bracketStack.push(String.valueOf(c));
+                    continue;
+                }
+                if (c == ')') {
+                    // 如果遇到)，就先让bracketStack出栈（如果pop出错，说明右括号多了，这里左括号多了不会报错）
+                    // 然后让数栈弹出两个数字，符号栈弹出一个符号，进行计算，并把结果放到数栈中
+                    bracketStack.pop();
+                    int b = numberStack.pop();
+                    int a = numberStack.pop();
+                    String topSymbol = symbolStack.pop();
+                    int result = operate(a, b, topSymbol);
+                    numberStack.push(result);
+                    continue;
+                }
                 if (symbolStack.isEmpty()) {
                     symbolStack.push(String.valueOf(c));
                 } else {
@@ -103,7 +122,7 @@ public class Calculator {
 
     // 判断是否为运算符
     public static boolean isOperator(char c) {
-        return c == '+' || c == '-' || c == '*' || c == '/';
+        return c == '+' || c == '-' || c == '*' || c == '/' || c == '(' || c == ')';
     }
 
     public static void main(String[] args) {
@@ -111,5 +130,9 @@ public class Calculator {
         c.calculate("3+2*6-2"); // 13
         c.calculate("7*2*2-5+1-5+3-4"); // 18
         c.calculate("70+2*6-4");  // 这里算出来的是8，显然是错的，正确的是78
+        // 带括号的情形
+        c.calculate("(3+2)*6-2"); // 28
+        c.calculate("(((3+2)*6)+6)/6"); // 6
+        c.calculate("((1+2*3+5)+6)/6"); // 3
     }
 }
