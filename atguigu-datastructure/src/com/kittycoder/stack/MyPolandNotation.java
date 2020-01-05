@@ -16,6 +16,11 @@ public class MyPolandNotation {
     }
 
     // 中缀转后缀表达式（自己按课程思路写的）
+    /**
+     * 这里和PolandNotation（课程里的代码）相比，差异在：
+     * 1.多用了一个栈
+     * 2.判断逻辑，代码写的相对麻烦点
+     */
     public static List<String> toSuffixExpression(String middleExpression) {
         Stack<String> resultStack = new Stack<>(); // 结果栈
         Stack<String> symbolStack = new Stack<>(); // 符号栈
