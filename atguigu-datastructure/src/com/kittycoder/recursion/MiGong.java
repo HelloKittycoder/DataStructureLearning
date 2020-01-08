@@ -30,6 +30,7 @@ public class MiGong {
 
         // 使用递归给小球找路
         setWay(map, 1, 1);
+        // setWay(map, 1, 1, 0);
 
         System.out.println("修改后的地图的情况");
         printMap(map);
@@ -42,6 +43,42 @@ public class MiGong {
                 System.out.print(map[i][j] + " ");
             }
             System.out.println();
+        }
+    }
+
+    // 测试方法
+    public static boolean setWay(int[][] map, int i, int j, int depth) {
+        System.out.println(RecursionUtil.generateDepthString(depth) + "(" + i + "," +j +")" + "进入");
+
+        if (map[6][5] == 2) { // 已经到达了(6,5)，通路已找到
+            System.out.println(RecursionUtil.generateDepthString(depth) + "通路已找到");
+            return true;
+        } else {
+            if (map[i][j] == 0) { // 该点没走过
+                map[i][j] = 2; // 假定该点是可以走通的
+                System.out.println(RecursionUtil.generateDepthString(depth) + "修改(" + i + "," +j +")为2");
+                // 按照
+                if (setWay(map, i + 1, j, depth + 1)) { // 下
+                    System.out.println(RecursionUtil.generateDepthString(depth) + "(" + i + "," + j + ")能走通[下]");
+                    return true;
+                } else if (setWay(map, i, j + 1, depth + 1)) { // 右
+                    System.out.println(RecursionUtil.generateDepthString(depth) + "(" + i + "," + j + ")能走通[右]");
+                    return true;
+                } else if (setWay(map, i - 1, j, depth + 1)) { // 上
+                    System.out.println(RecursionUtil.generateDepthString(depth) + "(" + i + "," + j + ")能走通[上]");
+                    return true;
+                } else if (setWay(map, i, j - 1, depth + 1)) { // 左
+                    System.out.println(RecursionUtil.generateDepthString(depth) + "(" + i + "," + j + ")能走通[左]");
+                    return true;
+                } else {
+                    // 说明该点走不同，是死路
+                    map[i][j] = 3;
+                    return false;
+                }
+            } else { // 取值为1（墙）、2（该点能走通，且走过）、3（该点试了走不通）
+                System.out.println(RecursionUtil.generateDepthString(depth) + "(" + i + "," + j + ")为" + map[i][j] + "=失败");
+                return false;
+            }
         }
     }
 
