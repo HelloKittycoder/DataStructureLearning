@@ -1,5 +1,7 @@
 package com.kittycoder.sort;
 
+import org.junit.Test;
+
 import java.util.Arrays;
 
 import static org.fusesource.jansi.Ansi.ansi;
@@ -43,6 +45,20 @@ public class SelectSort {
                     i + 1, colorString(arr, i));
         }
         return arr;
+    }
+
+    // 测试选择排序的性能
+    @Test
+    public void testSelectSort() {
+        int[] arr = new int[80000];
+        for (int i = 0; i < 80000; i++) {
+            arr[i] = (int) (Math.random() * 80000 + 1);
+        }
+
+        long start = System.currentTimeMillis();
+        sort(arr); // 此时注释掉方法内部的打印语句
+        long end = System.currentTimeMillis();
+        System.out.printf("排序所需时间为：%ds\n", (end - start) / 1000);
     }
 
     /**
