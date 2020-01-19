@@ -113,8 +113,8 @@ public class BubbleSort {
                 System.out.printf("i=%d j=%d 排序结果：%s\n", i, j,
                         Arrays.toString(arr));
             }
-            System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
-                    i + 1, Arrays.toString(arr));
+            /*System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
+                    i + 1, Arrays.toString(arr));*/
             System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
                     i + 1, colorString(arr, length - 1 -i));
 
