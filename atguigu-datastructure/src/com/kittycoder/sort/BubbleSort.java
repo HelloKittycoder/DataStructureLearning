@@ -1,7 +1,6 @@
 package com.kittycoder.sort;
 
 import com.kittycoder.util.ColorStringUtil;
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -25,47 +24,6 @@ public class BubbleSort {
         System.out.println(Arrays.toString(a));
         sort2(a);
         System.out.println(Arrays.toString(a));
-    }
-
-    // 测试冒泡排序的性能
-    @Test
-    public void testBubbleSort() {
-        // 测试一下冒泡排序的速度
-        // 生成一个80000个元素的随机数组，每个元素的取值范围为[1,80000]
-
-        /**
-         * 举例：生成[1,100]的随机整数，Math.random()*100+1
-         * 推算过程：
-         * [1,100]-1=[0,99]=[0,100)=[0,1)*100
-         * =>[1,100]=[0,1)*100+1
-         */
-        int[] arr = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            arr[i] = (int) (Math.random() * 80000 + 1);
-        }
-
-        long start = System.currentTimeMillis();
-        sort2(arr); // 此时注释掉方法内部的打印语句
-        long end = System.currentTimeMillis();
-        System.out.printf("排序所需时间为：%ds\n", (end - start) / 1000);
-    }
-
-    // 简单测试下jdk的快速排序算法
-    @Test
-    public void testJdkPivotQuickSort() {
-        /*int[] a = {3, 9, -1, 10, -2};
-        Arrays.sort(a);
-        System.out.println(Arrays.toString(a));*/
-
-        int[] arr = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            arr[i] = (int) (Math.random() * 80000 + 1);
-        }
-
-        long start = System.currentTimeMillis();
-        Arrays.sort(arr); // 此时去掉方法内部的打印语句
-        long end = System.currentTimeMillis();
-        System.out.printf("排序所需时间为：%dms\n", end - start);
     }
 
     /**
@@ -109,13 +67,11 @@ public class BubbleSort {
                     arr[j + 1] = temp;
                     flag = true;
                 }
-                System.out.printf("i=%d j=%d 排序结果：%s\n", i, j,
-                        Arrays.toString(arr));
+                /*System.out.printf("i=%d j=%d 排序结果：%s\n", i, j,
+                        Arrays.toString(arr));*/
             }
             /*System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
-                    i + 1, Arrays.toString(arr));*/
-            System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
-                    i + 1, ColorStringUtil.fromIndexColorString(arr, length - 1 -i));
+                    i + 1, ColorStringUtil.fromIndexColorString(arr, length - 1 - i));*/
 
             if (!flag) { // 在一趟排序中，一次交换都没有发生过
                 break;

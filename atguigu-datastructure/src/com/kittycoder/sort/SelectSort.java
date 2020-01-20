@@ -1,7 +1,6 @@
 package com.kittycoder.sort;
 
 import com.kittycoder.util.ColorStringUtil;
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -31,31 +30,15 @@ public class SelectSort {
                     minIndex = j;
                 }
             }
-            System.out.printf("交换arr[%d]=%d和arr[%d]=%d（最小值）\n",
-                    i, arr[i], minIndex, minValue);
+            /*System.out.printf("交换arr[%d]=%d和arr[%d]=%d（最小值）\n",
+                    i, arr[i], minIndex, minValue);*/
             // 交换第0个数字和最小数
             if (minIndex != i) {
                 arr[minIndex] = arr[i];
                 arr[i] = minValue;
             }
             /*System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
-                    i + 1, Arrays.toString(arr));*/
-            System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
-                    i + 1, ColorStringUtil.toIndexColorString(arr, i));
+                    i + 1, ColorStringUtil.toIndexColorString(arr, i));*/
         }
-    }
-
-    // 测试选择排序的性能
-    @Test
-    public void testSelectSort() {
-        int[] arr = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            arr[i] = (int) (Math.random() * 80000 + 1);
-        }
-
-        long start = System.currentTimeMillis();
-        sort(arr); // 此时注释掉方法内部的打印语句
-        long end = System.currentTimeMillis();
-        System.out.printf("排序所需时间为：%ds\n", (end - start) / 1000);
     }
 }
