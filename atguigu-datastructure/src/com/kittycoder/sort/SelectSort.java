@@ -19,7 +19,7 @@ public class SelectSort {
         System.out.println(Arrays.toString(a));
     }
 
-    public static int[] sort(int[] arr) {
+    public static void sort(int[] arr) {
         int length = arr.length;
 
         for (int i = 0; i < length - 1; i++) {
@@ -44,7 +44,6 @@ public class SelectSort {
             System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
                     i + 1, colorString(arr, i));
         }
-        return arr;
     }
 
     // 测试选择排序的性能
