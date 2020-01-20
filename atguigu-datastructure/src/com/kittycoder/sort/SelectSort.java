@@ -1,10 +1,9 @@
 package com.kittycoder.sort;
 
+import com.kittycoder.util.ColorStringUtil;
 import org.junit.Test;
 
 import java.util.Arrays;
-
-import static org.fusesource.jansi.Ansi.ansi;
 
 /**
  * Created by shucheng on 2020/1/9 9:21
@@ -42,7 +41,7 @@ public class SelectSort {
             /*System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
                     i + 1, Arrays.toString(arr));*/
             System.out.printf("i=%d 第%d趟排序后的结果：%s\n", i,
-                    i + 1, colorString(arr, i));
+                    i + 1, ColorStringUtil.toIndexColorString(arr, i));
         }
     }
 
@@ -58,37 +57,5 @@ public class SelectSort {
         sort(arr); // 此时注释掉方法内部的打印语句
         long end = System.currentTimeMillis();
         System.out.printf("排序所需时间为：%ds\n", (end - start) / 1000);
-    }
-
-    /**
-     * 打印数组，并将从索引0直到索引为toIndex的元素打印成红色加粗的
-     * 使用示例：colorString(a, 4);
-     *          colorString(a, -1);
-     * @param arr
-     * @param toIndex
-     */
-    public static String colorString(int[] arr, int toIndex) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("[");
-        int length = arr.length;
-        for (int i = 0; i < length; i++) {
-            // 追加颜色的条件：假设有5个元素，比如2表示，索引为[0,2]的所有元素都使用red,bold
-            // -1表示，索引为[0,5-1]即[0,4]的所有元素都使用red,bold
-            boolean isAppendColor = (toIndex >= 0 && i <= toIndex) ||
-                    (toIndex < 0 && i <= length + toIndex);
-            if (isAppendColor) {
-                // 带逗号的来分隔属性的使用规则，官方文档上没写，这里是跟踪源码看出来的
-                sb.append("@|red,bold " + arr[i] + "|@");
-            } else {
-                sb.append(arr[i]);
-            }
-            if (i != length - 1) {
-                sb.append(", ");
-            }
-        }
-        sb.append("]");
-        // jansi官方示例：
-        // System.out.println( ansi().eraseScreen().render("hello @|red,bold Hello|@ @|green World|@") );
-        return ansi().eraseScreen().render(sb.toString()).toString();
     }
 }

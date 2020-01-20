@@ -1,11 +1,8 @@
 package com.kittycoder.sort;
 
-import org.apache.commons.lang3.ArrayUtils;
 import org.junit.Test;
 
 import java.util.Arrays;
-
-import static org.fusesource.jansi.Ansi.ansi;
 
 /**
  * Created by shucheng on 2020/1/20 8:01
@@ -51,7 +48,7 @@ public class InsertSort {
              * 2. insertValue<arr[insertIndex]待插入的数，表示还没有找到插入位置
              * 3. 就需要将arr[insertIndex]的数据后移
              */
-            // System.out.printf("开始进行第%d轮排序：%s\n", i, colorString(arr, i));
+            // System.out.printf("开始进行第%d轮排序：%s\n", i, ColorStringUtil.indexColorString(arr, i));
             // 如果要从大到小排序，只要把insertValue<arr[insertIndex]改成insertValue>arr[insertIndex]
             while (insertIndex >= 0 && insertValue < arr[insertIndex]) {
                 /*System.out.printf("比较(insertValue)arr[%d]=%d和arr[%d]=%d\n",
@@ -107,32 +104,5 @@ public class InsertSort {
             arr[i + 1] = arr[i];
         }
         arr[insertPoint] = temp;
-    }
-
-    /**
-     * 打印数组，让指定索引的元素打印成红色加粗的
-     * @param arr
-     * @param index 可以指定多个索引位置
-     * @return
-     */
-    public static String colorString(int[] arr, int... index) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("[");
-        int length = arr.length;
-        for (int i = 0; i < length; i++) {
-            if (ArrayUtils.contains(index, i)) {
-                // 带逗号的来分隔属性的使用规则，官方文档上没写，这里是跟踪源码看出来的
-                sb.append("@|red,bold " + arr[i] + "|@");
-            } else {
-                sb.append(arr[i]);
-            }
-            if (i != length - 1) {
-                sb.append(", ");
-            }
-        }
-        sb.append("]");
-        // jansi官方示例：
-        // System.out.println( ansi().eraseScreen().render("hello @|red,bold Hello|@ @|green World|@") );
-        return ansi().eraseScreen().render(sb.toString()).toString();
     }
 }
