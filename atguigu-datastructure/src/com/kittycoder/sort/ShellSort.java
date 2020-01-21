@@ -173,7 +173,7 @@ public class ShellSort {
                     arr[j + gap] = temp;
                 } else {
                     flag = false;
-                    System.out.println("不需要交换");
+                    // System.out.println("不需要交换");
                 }
 
                 if (!flag) {

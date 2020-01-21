@@ -54,6 +54,26 @@ public class SpeedTest {
         });
     }
 
+    // 测试希尔排序（移位法比优化后的交换法稍快，速度相差不大；如果交换法不做优化，速度差异很大）
+    @Test
+    public void testShellSort() {
+        // 交换法
+        testSort(new SortCallback("swapShell") {
+            @Override
+            public void invoke(Object o) {
+                ShellSort.shellSort2((int[]) o);
+            }
+        });
+
+        // 移位法
+        testSort(new SortCallback("moveShell") {
+            @Override
+            public void invoke(Object o) {
+                ShellSort.shellSort3((int[]) o);
+            }
+        });
+    }
+
     public int[] generateArray() {
         // 测试一下冒泡排序的速度
         // 生成一个80000个元素的随机数组，每个元素的取值范围为[1,80000]
