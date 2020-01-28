@@ -74,6 +74,33 @@ public class SpeedTest {
         });
     }
 
+    // 测试快速排序（以中间的数为基准数）
+    @Test
+    public void testQuickSort() {
+        testSort(new SortCallback("quickSort") {
+            @Override
+            public void invoke(Object o) {
+                int[] oarr = (int[]) o;
+                // System.out.println(Arrays.toString(oarr));
+                QuickSort.sort2(oarr, 0, oarr.length - 1);
+            }
+        });
+    }
+
+    // 测试快速排序（以最左边的数为基准数）
+    @Test
+    public void testQuickSort2() {
+        testSort(new SortCallback("quickSort") {
+            @Override
+            public void invoke(Object o) {
+                int[] oarr = (int[]) o;
+                // System.out.println(Arrays.toString(oarr));
+                // QuickSort2.sort(oarr, 0, oarr.length - 1);
+                QuickSort2.quickSort1(oarr, 0, oarr.length - 1);
+            }
+        });
+    }
+
     public int[] generateArray() {
         // 测试一下冒泡排序的速度
         // 生成一个80000个元素的随机数组，每个元素的取值范围为[1,80000]
