@@ -101,6 +101,19 @@ public class SpeedTest {
         });
     }
 
+    // 测试归并排序
+    @Test
+    public void testMergeSort() {
+        testSort(new SortCallback("mergeSort") {
+            @Override
+            public void invoke(Object o) {
+                int[] oarr = (int[]) o;
+                int[] temp = new int[oarr.length];
+                MergeSort.mergeSort(oarr, 0, oarr.length - 1, temp);
+            }
+        });
+    }
+
     public int[] generateArray() {
         // 测试一下冒泡排序的速度
         // 生成一个80000个元素的随机数组，每个元素的取值范围为[1,80000]
