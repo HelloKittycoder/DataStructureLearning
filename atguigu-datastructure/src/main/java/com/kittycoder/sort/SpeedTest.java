@@ -114,6 +114,18 @@ public class SpeedTest {
         });
     }
 
+    // 测试基数排序
+    @Test
+    public void testRadixSort() {
+        testSort(new SortCallback("radixSort") {
+            @Override
+            public void invoke(Object o) {
+                int[] oarr = (int[]) o;
+                RadixSort.radixSort(oarr);
+            }
+        });
+    }
+
     public int[] generateArray() {
         // 测试一下冒泡排序的速度
         // 生成一个80000个元素的随机数组，每个元素的取值范围为[1,80000]
