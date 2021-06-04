@@ -59,6 +59,7 @@ public class BinarySearch {
      * @return 如果找到就返回下标，如果没有找到，就返回-1
      */
     public static int binarySearch2(int[] arr, int left, int right, int findVal) {
+        // System.out.println("Say Hello=== left--->" + left + "=== right--->" + right);
         // 当 left>right 时，说明递归整个数组后，没有找到目标值
         if (left > right) {
             return -1;
