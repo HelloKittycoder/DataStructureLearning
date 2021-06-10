@@ -110,7 +110,7 @@ class ThreadedBinaryTree {
         }
         //!!! 每处理一个结点后，让当前结点是下一个结点的前驱结点
         pre = node;
-        //(三)在线索化右子树
+        //(三)再线索化右子树
         threadedNodes(node.getRight());
     }
 
