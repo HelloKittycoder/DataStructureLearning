@@ -15,10 +15,10 @@ public class HeapSort {
     public static void heapSort(int[] arr) {
         int temp = 0;
         // 分步完成
-        adjustHeap(arr, 1, arr.length);
+        /*adjustHeap(arr, 1, arr.length);
         System.out.println("第1次：" + Arrays.toString(arr)); // 4,9,8,5,6
         adjustHeap(arr, 0, arr.length);
-        System.out.println("第2次：" + Arrays.toString(arr)); // 9,6,8,5,4
+        System.out.println("第2次：" + Arrays.toString(arr)); // 9,6,8,5,4*/
 
         // 完成最终代码
         // 1）将无序序列构成一个堆，根据升序降序需求选择大顶堆或小顶堆
@@ -44,7 +44,7 @@ public class HeapSort {
             // 调整
             adjustHeap(arr, 0, j);
         }
-        System.out.println("数组：" + Arrays.toString(arr));
+        // System.out.println("数组：" + Arrays.toString(arr));
     }
 
     /**

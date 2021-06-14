@@ -1,5 +1,6 @@
 package com.kittycoder.sort;
 
+import com.kittycoder.tree.HeapSort;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -122,6 +123,18 @@ public class SpeedTest {
             public void invoke(Object o) {
                 int[] oarr = (int[]) o;
                 RadixSort.radixSort(oarr);
+            }
+        });
+    }
+
+    // 测试堆排序
+    @Test
+    public void testHeapSort() {
+        testSort(new SortCallback("heapSort") {
+            @Override
+            public void invoke(Object o) {
+                int[] oarr = (int[]) o;
+                HeapSort.heapSort(oarr);
             }
         });
     }
