@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * Created by shucheng on 2021/6/16 21:50
  * 数据压缩-赫夫曼编码
+ * 数据解压-赫夫曼解码
  */
 public class HuffmanCode {
     public static void main(String[] args) {
@@ -29,6 +30,38 @@ public class HuffmanCode {
         // 将赫夫曼编码压缩成字节数组
         byte[] huffmanCodeBytes = zip(contentBytes, huffmanCodeMap);
         System.out.println("huffmanCodeBytes=" + Arrays.toString(huffmanCodeBytes)); // 17*/
+    }
+
+    /**
+     * 将一个byte转成一个二进制的字符串
+     * 举例：-88->10101000，-90->10100110，28->11100（数组的最后一个数）
+     * 结合byte[] [-88, -65, -56, -65, -56, -65, -55, 77, -57, 6, -24, -14, -117, -4, -60, -90, 28]
+     * 还有 "1010100010111111110010001011111111001000101111111100100101001101110001110000011011101000111100101000101111111100110001001010011011100"
+     * 可以知道
+     *
+     * @param flag 标识是否需要补高位，如果是true，表示需要补高位；如果是false，表示不补（如果是最后一个字节，无需补高位）
+     * @param b 传入的byte
+     * @return 该b对应的二进制字符串（注意是按补码返回）
+     */
+    private static String byteToBitString(boolean flag, byte b) {
+        // 使用变量保存b
+        int temp = b; // 将b转成int
+        // 如果是正数，我们还需要补高位
+        if (flag) {
+            /**
+             * 按位或 256
+             * 举例：1 0000 0000  | 0000 0001 = 1 0000 0001
+             */
+            temp |= 256;
+        }
+
+        // 返回的是temp对应的二进制的补码
+        String str = Integer.toBinaryString(temp);
+        if (flag) {
+            return str.substring(str.length() - 8);
+        } else {
+            return str;
+        }
     }
 
     /**
