@@ -9,8 +9,7 @@ import java.util.*;
 public class HuffmanCode {
     public static void main(String[] args) {
         String content = "i like like like java do you like a java";
-        byte[] contentBytes = content.getBytes();
-        // System.out.println(contentBytes.length);
+        byte[] contentBytes = content.getBytes(); // 40
 
         List<Node> nodes = getNodes(contentBytes);
         System.out.println("nodes=" + nodes);
@@ -18,6 +17,59 @@ public class HuffmanCode {
         // 创建赫夫曼树
         Node huffmanTreeRoot = createHuffmanTree(nodes);
         // huffmanTreeRoot.preOrder();
+        getCodes(huffmanTreeRoot);
+        System.out.println("生成的赫夫曼编码表=" + huffmanCodeMap);
+    }
+
+    //1. 将赫夫曼编码表存放在 Map<Byte,String> 形式
+    //   生成的赫夫曼编码表{32=01, 97=100, 100=11000, 117=11001, 101=1110, 118=11011, 105=101, 121=11010, 106=0010, 107=1111, 108=000, 111=0011}
+    static Map<Byte, String> huffmanCodeMap = new HashMap<>();
+    //2. 在生成赫夫曼编码表示，需要去拼接路径, 定义一个StringBuilder 存储某个叶子结点的路径
+    static StringBuilder stringBuilder = new StringBuilder();
+
+    // 为了调用方便，我们重载getCodes方法
+    private static Map<Byte, String> getCodes(Node root) {
+        if (root == null) {
+            return null;
+        }
+        getCodes(root, "", stringBuilder);
+        return huffmanCodeMap;
+
+        // 上面的代码和下面这段是等价的
+        /*if(root == null) {
+            return null;
+        }
+        //处理root的左子树
+        getCodes(root.left, "0", stringBuilder);
+        //处理root的右子树
+        getCodes(root.right, "1", stringBuilder);
+        return huffmanCodeMap;*/
+    }
+
+    /**
+     * 获取赫夫曼树所有叶子节点的编码并放入huffmanCodeMap中
+     * @param node 传入节点
+     * @param code 路径：左子节点是0，右子节点是1
+     * @param stringBuilder 用于拼接路径
+     * @return
+     */
+    private static void getCodes(Node node, String code, StringBuilder stringBuilder) {
+        StringBuilder stringBuilder2 = new StringBuilder(stringBuilder);
+        // 将code加到stringBuilder2
+        stringBuilder2.append(code);
+        if (node != null) { // 如果node==null不处理
+            // 判断当前node是叶子节点还是非叶子节点
+            if (node.data == null) { // 非叶子节点
+                // 递归处理
+                // 向左递归
+                getCodes(node.left, "0", stringBuilder2);
+                // 向右递归
+                getCodes(node.right, "1", stringBuilder2);
+            } else { // 说明是一个叶子节点
+                // 就表示找到某个叶子节点的最后
+                huffmanCodeMap.put(node.data, stringBuilder2.toString());
+            }
+        }
     }
 
     // 前序遍历
