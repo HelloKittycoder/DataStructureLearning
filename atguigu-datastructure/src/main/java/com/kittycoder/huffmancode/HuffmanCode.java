@@ -9,6 +9,12 @@ import java.util.*;
 public class HuffmanCode {
     public static void main(String[] args) {
         String content = "i like like like java do you like a java";
+        byte[] huffmanCodeBytes = huffmanZip(content.getBytes());
+        System.out.println("huffmanCodeBytes=" + Arrays.toString(huffmanCodeBytes));
+
+        //如何将 数据进行压缩
+        // 分步过程
+        /*String content = "i like like like java do you like a java";
         byte[] contentBytes = content.getBytes(); // 40
 
         List<Node> nodes = getNodes(contentBytes);
@@ -22,7 +28,23 @@ public class HuffmanCode {
 
         // 将赫夫曼编码压缩成字节数组
         byte[] huffmanCodeBytes = zip(contentBytes, huffmanCodeMap);
-        System.out.println("huffmanCodeBytes=" + Arrays.toString(huffmanCodeBytes)); // 17
+        System.out.println("huffmanCodeBytes=" + Arrays.toString(huffmanCodeBytes)); // 17*/
+    }
+
+    /**
+     * 使用赫夫曼编码对字节数组进行压缩
+     * @param bytes 原始的字符串对应的byte[]
+     * @return
+     */
+    private static byte[] huffmanZip(byte[] bytes) {
+        List<Node> nodes = getNodes(bytes);
+        //根据 nodes 创建赫夫曼树
+        Node huffmanTreeRoot = createHuffmanTree(nodes);
+        //根据 赫夫曼树创建对应的赫夫曼编码
+        Map<Byte, String> huffmanCodeMap = getCodes(huffmanTreeRoot);
+        //根据生成的赫夫曼编码，得到压缩后的赫夫曼编码字节数组
+        byte[] huffmanCodeBytes = zip(bytes, huffmanCodeMap);
+        return huffmanCodeBytes;
     }
 
     //1. 将赫夫曼编码表存放在 Map<Byte,String> 形式
@@ -54,7 +76,7 @@ public class HuffmanCode {
         for (byte b : bytes) {
             stringBuilder.append(huffmanCodeMap.get(b));
         }
-        System.out.println("测试 stringBuilder~~~=" + stringBuilder.toString());
+        // System.out.println("测试 stringBuilder~~~=" + stringBuilder.toString());
         // 将 "1010100010111111110..." 转成byte[]
         // 统计返回byte[] huffmanCodeBytes 长度
         int len;
