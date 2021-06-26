@@ -1,20 +1,31 @@
 package com.kittycoder.huffmancode;
 
+import java.io.*;
 import java.util.*;
 
 /**
  * Created by shucheng on 2021/6/16 21:50
  * 数据压缩-赫夫曼编码
  * 数据解压-赫夫曼解码
+ * 使用赫夫曼编码压缩、解压文件
  */
 public class HuffmanCode {
-    public static void main(String[] args) {
-        String content = "i like like like java do you like a java";
+    public static void main(String[] args) throws Exception {
+        // 测试压缩文件
+        File srcFile = new File(HuffmanCode.class.getResource("src.bmp").toURI());
+        File destFile = new File(srcFile.getParent(), "dest.zip");
+        zipFile(srcFile.getAbsolutePath(), destFile.getAbsolutePath());
+
+        // 测试解压文件
+        File originalFile = new File(srcFile.getParent(), "original.bmp");
+        unzipFile(destFile.getAbsolutePath(), originalFile.getAbsolutePath());
+
+        /*String content = "i like like like java do you like a java";
         byte[] huffmanCodeBytes = huffmanZip(content.getBytes());
         System.out.println("huffmanCodeBytes=" + Arrays.toString(huffmanCodeBytes));
 
         byte[] decodeHuffmanBytes = decode(huffmanCodeMap, huffmanCodeBytes);
-        System.out.println("原来的字符串=" + new String(decodeHuffmanBytes)); // i like like like java do you like a java
+        System.out.println("原来的字符串=" + new String(decodeHuffmanBytes)); // i like like like java do you like a java*/
 
         //如何将 数据进行压缩
         // 分步过程
@@ -33,6 +44,107 @@ public class HuffmanCode {
         // 将赫夫曼编码压缩成字节数组
         byte[] huffmanCodeBytes = zip(contentBytes, huffmanCodeMap);
         System.out.println("huffmanCodeBytes=" + Arrays.toString(huffmanCodeBytes)); // 17*/
+    }
+
+    /**
+     * 编写一个方法，完成对压缩文件的解压
+     * @param zipFile 准备解压的文件
+     * @param unzipFile 将文件解压到哪个位置
+     */
+    public static void unzipFile(String zipFile, String unzipFile) {
+        // 声明输入流
+        InputStream is = null;
+        // 声明一个对象输入流
+        ObjectInputStream ois = null;
+        // 声明文件的输出流
+        FileOutputStream os = null;
+        try {
+            // 创建文件输入流
+            is = new FileInputStream(zipFile);
+            // 创建一个和is关联的对象
+            ois = new ObjectInputStream(is);
+
+            // 读取byte数组，经过赫夫曼编码后的byte数组
+            byte[] huffmanCodeBytes = (byte[]) ois.readObject();
+            // 读取赫夫曼编码表
+            Map<Byte, String> huffmanCodeMap = (Map<Byte, String>) ois.readObject();
+
+            // 解码（将赫夫曼编码后的byte数组解码成源文件的byte数组）
+            byte[] bytes = decode(huffmanCodeMap, huffmanCodeBytes);
+            os = new FileOutputStream(unzipFile);
+            // 将byte数组写到目标文件
+            os.write(bytes);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                os.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                ois.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                is.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    /**
+     * 编写方法，将一个文件进行压缩
+     * @param srcFile 你传入的希望压缩的文件的全路径
+     * @param destFile 我们压缩后的文件的全路径
+     */
+    public static void zipFile(String srcFile, String destFile) {
+        // 声明文件的输入流
+        FileInputStream is = null;
+        // 声明输出流
+        FileOutputStream os = null;
+        ObjectOutputStream oos = null;
+        try {
+            // 创建文件的输入流
+            is = new FileInputStream(srcFile);
+
+            // 创建一个和源文件大小一样的byte数组
+            byte[] bytes = new byte[is.available()];
+            // 读取文件
+            is.read(bytes);
+            // 使用赫夫曼编码对源文件的byte数组进行压缩
+            byte[] huffmanCodeBytes = huffmanZip(bytes);
+
+            // 创建文件的输出流，存放压缩文件
+            os = new FileOutputStream(destFile);
+            // 创建一个和文件输出流关联的ObjectOutputStream
+            oos = new ObjectOutputStream(os);
+            // 把赫夫曼编码后的byte数组写入压缩文件
+            oos.writeObject(huffmanCodeBytes);
+            // 这里我们以对象流的方式写入赫夫曼编码表，是为了以后我们恢复源文件使用
+            // 注意一定要把赫夫曼编码表写入压缩文件
+            oos.writeObject(huffmanCodeMap);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                oos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                os.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                is.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     /**
