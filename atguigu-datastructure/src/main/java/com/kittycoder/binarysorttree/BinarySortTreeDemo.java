@@ -16,11 +16,37 @@ public class BinarySortTreeDemo {
         // 中序遍历二叉排序树
         System.out.println("中序遍历二叉排序树~");
         binarySortTree.infixOrder(); // 1,3,5,7,9,10,12
+
+        System.out.println("节点搜索");
+        // search(12)->12
+        Node searchNode = binarySortTree.search(12);
+        System.out.println(searchNode);
+        // searchParent(12)->10,searchParent(7)->null
+        Node searchParentNode = binarySortTree.searchParent(7);
+        System.out.println(searchParentNode);
     }
 }
 
 class BinarySortTree {
     private Node root;
+
+    // 查找指定节点
+    public Node search(int value) {
+        if (root == null) {
+            return null;
+        } else {
+            return root.search(value);
+        }
+    }
+
+    // 查找指定节点的父节点
+    public Node searchParent(int value) {
+        if (root == null) {
+            return null;
+        } else {
+            return root.searchParent(value);
+        }
+    }
 
     // 添加节点的方法
     public void add(Node node) {
@@ -50,6 +76,51 @@ class Node {
 
     public Node(int value) {
         this.value = value;
+    }
+
+    /**
+     * 查找要删除的节点
+     * @param value 希望删除的节点的值
+     * @return 如果找到返回该节点，否则返回null
+     */
+    public Node search(int value) {
+        if (value == this.value) { // 找到就是该节点
+            return this;
+        } else if (value < this.value) { // 如果查找的值小于当前节点的值，向左子树递归查找
+            // 如果左子节点为空
+            if (this.left == null) {
+                return null;
+            }
+            return this.left.search(value);
+        } else { // 如果查找的值大于当前节点的值，向右子树递归查找
+            // 如果右子节点为空
+            if (this.right == null) {
+                return null;
+            }
+            return this.right.search(value);
+        }
+    }
+
+    /**
+     * 查找要删除节点的父节点
+     * @param value 要找到的节点的值
+     * @return 返回要删除节点的父节点，如果没有就返回null
+     */
+    public Node searchParent(int value) {
+        // 如果当前节点就是要删除的节点的父节点，就返回
+        if ((this.left != null && this.left.value == value)
+                || (this.right != null && this.right.value == value)) {
+            return this;
+        } else {
+            // 如果查找的值小于当前节点的值，并且当前节点的左子节点不为空
+            if (value < this.value && this.left != null) {
+                return this.left.searchParent(value); // 向左子树递归查找
+            } else if (value >= this.value && this.right != null) {
+                return this.right.searchParent(value); // 向右子树递归查找
+            } else {
+                return null;
+            }
+        }
     }
 
     /**
