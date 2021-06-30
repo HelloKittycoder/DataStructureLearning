@@ -5,26 +5,6 @@ package com.kittycoder.binarysorttree;
  * 二叉排序树
  */
 public class BinarySortTreeDemo {
-    public static void main(String[] args) {
-        int[] arr = {7, 3, 10, 12, 5, 1, 9};
-        BinarySortTree binarySortTree = new BinarySortTree();
-        // 循环地添加节点到二叉排序树
-        for (int i = 0; i < arr.length; i++) {
-            binarySortTree.add(new Node(arr[i]));
-        }
-
-        // 中序遍历二叉排序树
-        System.out.println("中序遍历二叉排序树~");
-        binarySortTree.infixOrder(); // 1,3,5,7,9,10,12
-
-        System.out.println("节点搜索");
-        // search(12)->12
-        Node searchNode = binarySortTree.search(12);
-        System.out.println(searchNode);
-        // searchParent(12)->10,searchParent(7)->null
-        Node searchParentNode = binarySortTree.searchParent(7);
-        System.out.println(searchParentNode);
-    }
 }
 
 class BinarySortTree {
@@ -45,6 +25,37 @@ class BinarySortTree {
             return null;
         } else {
             return root.searchParent(value);
+        }
+    }
+
+    // 删除节点
+    public void delNode(int value) {
+        if (root == null) {
+            return;
+        } else {
+            // 1.需要先去找要删除的节点 targetNode
+            Node targetNode = search(value);
+            // 如果没有找到要删除的节点
+            if (targetNode == null) {
+                return;
+            }
+            // 如果我们发现这棵二叉树只有一个节点
+            if (root.left == null && root.right == null) {
+                root = null;
+                return;
+            }
+
+            // 去找到targetNode的父节点
+            Node parent = searchParent(value);
+            // 如果要删除的节点是叶子节点
+            if (targetNode.left == null && targetNode.right == null) {
+                // 判断targetNode是父节点的左子节点，还是右子节点
+                if (parent.left != null && parent.left.value == value) { // 是左子节点
+                    parent.left = null;
+                } else if (parent.right != null && parent.right.value == value) { // 是右子节点
+                    parent.right = null;
+                }
+            }
         }
     }
 
