@@ -49,4 +49,21 @@ public class BinarySortTreeDemoTest {
         System.out.println("删除后");
         binarySortTree.infixOrder();
     }
+
+    // 测试删除只有一棵子树的节点
+    @Test
+    public void testDelHasOneSubTreeNode() {
+        // {7, 10, 12} infixOrder{7,10,12}，删掉10，infixOrder{1,12}
+        // 上面这种情况，parent.left就为null
+        // {7, 3, 10, 12, 5, 1, 9, 0} infixOrder{0,1,3,5,7,9,10,12}，删掉1，infixOrder{0,3,5,7,9,10,12}
+        // {7, 3, 10, 12, 5, 1, 9, 2} infixOrder{1,2,3,5,7,9,10,12}，删掉1，infixOrder{2,3,5,7,9,10,12}
+        int[] arr = {7, 3, 10, 12, 5, 1, 9, 0};
+        BinarySortTree binarySortTree = generateBinarySortTree(arr);
+        System.out.println("删除前");
+        binarySortTree.infixOrder();
+
+        binarySortTree.delNode(1);
+        System.out.println("删除后");
+        binarySortTree.infixOrder();
+    }
 }

@@ -55,6 +55,26 @@ class BinarySortTree {
                 } else if (parent.right != null && parent.right.value == value) { // 是右子节点
                     parent.right = null;
                 }
+            } else if (targetNode.left != null && targetNode.right != null) { // 删除有两棵子树的节点
+            } else { // 删除只有一棵子树的节点
+                // 下面没有完全按课程里的代码来，因为课程里的代码可能会出NPE错误
+                if (targetNode.left != null) { // 如果该节点只有左子树
+                    if (parent.left != null && parent.left.value == value) {
+                        // 如果targetNode是parent的左子节点
+                        parent.left = targetNode.left;
+                    } else if (parent.right != null && parent.right.value == value) {
+                        // 如果targetNode是parent的右子节点
+                        parent.right = targetNode.left;
+                    }
+                } else { // 如果该节点只有右子树
+                    if (parent.left != null && parent.left.value == value) {
+                        // 如果targetNode是parent的左子节点
+                        parent.left = targetNode.right;
+                    } else if (parent.right != null && parent.right.value == value) {
+                        // 如果targetNode是parent的右子节点
+                        parent.right = targetNode.right;
+                    }
+                }
             }
         }
     }
