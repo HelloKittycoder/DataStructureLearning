@@ -66,4 +66,21 @@ public class BinarySortTreeDemoTest {
         System.out.println("删除后");
         binarySortTree.infixOrder();
     }
+
+    // 测试删除有两棵子树的节点
+    @Test
+    public void testDelHasTwoSubTreeNode() {
+        // {7, 3, 10, 12, 5, 1, 9, 2} infixOrder{1,2,3,5,7,9,10,12}，
+        // 若只删掉7，infixOrder{1,2,3,5,9,10,12}
+        // 若只删掉10，infixOrder{1,2,3,5,7,9,12}
+        int[] arr = {7, 3, 10, 12, 5, 1, 9, 2};
+        BinarySortTree binarySortTree = generateBinarySortTree(arr);
+        System.out.println("删除前");
+        binarySortTree.infixOrder();
+
+        // binarySortTree.delNode(7);
+        binarySortTree.delNode(10);
+        System.out.println("删除后");
+        binarySortTree.infixOrder();
+    }
 }

@@ -28,6 +28,25 @@ class BinarySortTree {
         }
     }
 
+    /**
+     * 编写方法：
+     * 1.返回以node为根节点的二叉排序树的最小值的节点
+     * 2.删除node为根节点的二叉排序树的最小值的节点
+     * @param node 传入的节点（当做二叉排序树的根节点）
+     * @return 返回以node为根节点的二叉排序树的最小值
+     */
+    public int delRightTreeMin(Node node) {
+        Node target = node;
+        // 循环的查找左子节点，就会找到最小值
+        while (target.left != null) {
+            target = target.left;
+        }
+        // 这时target就指向了最小值对应的节点
+        // 删除最小值对应的节点
+        delNode(target.value);
+        return target.value;
+    }
+
     // 删除节点
     public void delNode(int value) {
         if (root == null) {
@@ -56,6 +75,8 @@ class BinarySortTree {
                     parent.right = null;
                 }
             } else if (targetNode.left != null && targetNode.right != null) { // 删除有两棵子树的节点
+                int minVal = delRightTreeMin(targetNode.right);
+                targetNode.value = minVal;
             } else { // 删除只有一棵子树的节点
                 // 下面没有完全按课程里的代码来，因为课程里的代码可能会出NPE错误
                 if (targetNode.left != null) { // 如果该节点只有左子树
