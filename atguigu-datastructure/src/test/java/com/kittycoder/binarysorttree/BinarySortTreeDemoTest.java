@@ -83,4 +83,27 @@ public class BinarySortTreeDemoTest {
         System.out.println("删除后");
         binarySortTree.infixOrder();
     }
+
+    @Test
+    public void test() {
+        int[] arr = {7, 3, 10, 12, 5, 1, 9, 2};
+        BinarySortTree binarySortTree = generateBinarySortTree(arr);
+        System.out.println("删除前");
+        binarySortTree.infixOrder();
+
+        binarySortTree.delNode(2);
+        binarySortTree.delNode(5);
+        binarySortTree.delNode(9);
+        binarySortTree.delNode(12);
+        binarySortTree.delNode(7);
+        binarySortTree.delNode(3);
+        /**
+         * 此时删除节点10时，节点10只有左子树，但是节点10没有父节点，如果按之前的代码来弄，就会报错；
+         * 所以，在删除只有一棵子树的节点时，需要判断parent是否为空，如果parent为空，则直接让root指向被删除节点的子节点
+         */
+        binarySortTree.delNode(10);
+        binarySortTree.delNode(1);
+        System.out.println("删除后");
+        binarySortTree.infixOrder();
+    }
 }
