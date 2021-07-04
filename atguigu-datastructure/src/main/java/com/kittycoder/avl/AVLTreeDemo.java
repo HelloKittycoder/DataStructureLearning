@@ -18,10 +18,10 @@ public class AVLTreeDemo {
         System.out.println("中序遍历");
         avlTree.infixOrder(); // 3,4,5,6,7,8
 
-        System.out.println("在没有平衡处理前~~");
-        System.out.println("树的高度=" + avlTree.getRoot().height()); // 4
-        System.out.println("树的左子树高度=" + avlTree.getRoot().leftHeight()); // 1
-        System.out.println("树的右子树高度=" + avlTree.getRoot().rightHeight()); // 3
+        System.out.println("在平衡处理后~~");
+        System.out.println("树的高度=" + avlTree.getRoot().height()); // 3
+        System.out.println("树的左子树高度=" + avlTree.getRoot().leftHeight()); // 2
+        System.out.println("树的右子树高度=" + avlTree.getRoot().rightHeight()); // 2
     }
 }
 
@@ -182,6 +182,22 @@ class Node {
         return Math.max(left == null ? 0 : left.height(), right == null ? 0 : right.height()) + 1;
     }
 
+    // 左旋转
+    private void leftRotate() {
+        // 创建新的节点，值为当前节点的值
+        Node newNode = new Node(value);
+        // 把新的节点的左子树设置成当前节点的左子树
+        newNode.left = left;
+        // 把新的节点的右子树设置成当前节点的右子树的左子树
+        newNode.right = right.left;
+        // 把当前节点的值替换成当前节点的右子节点的值
+        value = right.value;
+        // 让当前节点的左子树（左子节点）指向新的节点
+        left = newNode;
+        // 把当前节点的右子树设置成当前节点的右子树的右子树
+        right = right.right;
+    }
+
     /**
      * 查找要删除的节点
      * @param value 希望删除的节点的值
@@ -255,6 +271,11 @@ class Node {
                 // 递归的向右子树添加
                 this.right.add(node);
             }
+        }
+
+        // 当添加完一个节点后，如果 (右子树的高度-左子树的高度)>1，则左旋转
+        if (rightHeight() - leftHeight() > 1) {
+            leftRotate();
         }
     }
 
