@@ -5,24 +5,6 @@ package com.kittycoder.avl;
  * Created by shucheng on 2021/7/3 23:34
  */
 public class AVLTreeDemo {
-    public static void main(String[] args) {
-        int[] arr = {4, 3, 6, 5, 7, 8};
-        // 创建一个AVLTree对象
-        AVLTree avlTree = new AVLTree();
-        // 添加节点
-        for (int i = 0; i < arr.length; i++) {
-            avlTree.add(new Node(arr[i]));
-        }
-
-        // 遍历
-        System.out.println("中序遍历");
-        avlTree.infixOrder(); // 3,4,5,6,7,8
-
-        System.out.println("在平衡处理后~~");
-        System.out.println("树的高度=" + avlTree.getRoot().height()); // 3
-        System.out.println("树的左子树高度=" + avlTree.getRoot().leftHeight()); // 2
-        System.out.println("树的右子树高度=" + avlTree.getRoot().rightHeight()); // 2
-    }
 }
 
 // 创建AVLTree
@@ -198,6 +180,16 @@ class Node {
         right = right.right;
     }
 
+    // 右旋转
+    private void rightRotate() {
+        Node newNode = new Node(value);
+        newNode.right = right;
+        newNode.left = left.right;
+        value = left.value;
+        right = newNode;
+        left = left.left;
+    }
+
     /**
      * 查找要删除的节点
      * @param value 希望删除的节点的值
@@ -276,6 +268,11 @@ class Node {
         // 当添加完一个节点后，如果 (右子树的高度-左子树的高度)>1，则左旋转
         if (rightHeight() - leftHeight() > 1) {
             leftRotate();
+        }
+
+        // 当添加完一个节点后，如果 (左子树的高度-右子树的高度)>1，则右旋转
+        if (leftHeight() - rightHeight() > 1) {
+            rightRotate();
         }
     }
 
