@@ -3,6 +3,8 @@ package com.kittycoder.graph;
 import java.util.*;
 
 /**
+ * 深度优先搜索 DFS（Depth First Search）
+ * 广度优先搜索 BFS（Breadth First Search）
  * Created by shucheng on 2021/7/5 20:53
  */
 public class Graph {
@@ -11,32 +13,6 @@ public class Graph {
     private int[][] edges; // 存储图对应的邻接矩阵
     private int numOfEdge; // 表示边的数目
     private boolean[] isVisited; // 记录已访问过的节点
-
-    public static void main(String[] args) {
-        String[] vertexArr = {"A", "B", "C", "D", "E"};
-
-        // 创建图对象
-        Graph graph = new Graph(vertexArr.length);
-        // 循环添加顶点
-        for (String vertex : vertexArr) {
-            graph.insertVertex(vertex);
-        }
-
-        // 添加边
-        graph.insertEdge(0, 1, 1); // A-B
-        graph.insertEdge(0, 2, 1);
-        graph.insertEdge(1, 2, 1);
-        graph.insertEdge(1, 3, 1);
-        graph.insertEdge(1, 4, 1);
-
-        graph.showGraph();
-
-        System.out.println("深度优先");
-        graph.dfs();
-        System.out.println();
-        System.out.println("广度优先");
-        graph.bfs();
-    }
 
     public Graph(int n) {
         // 初始化顶点集合和邻接矩阵
