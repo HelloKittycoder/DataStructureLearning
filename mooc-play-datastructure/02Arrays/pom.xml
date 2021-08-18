@@ -8,9 +8,21 @@
     <artifactId>02Arrays</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>pom</packaging>
+
     <parent>
         <artifactId>mooc-datastructure-study</artifactId>
         <groupId>com.kittycoder</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <modules>
+        <module>01-Array-Basics</module>
+        <module>02-Create-Our-Own-Array</module>
+        <module>03-Add-Element-in-Array</module>
+        <module>04-Query-and-Update-Element</module>
+        <module>05-Contain-Find-and-Remove</module>
+        <module>06-Generic-Data-Structures</module>
+        <module>07-Dynamic-Array</module>
+    </modules>
 </project>

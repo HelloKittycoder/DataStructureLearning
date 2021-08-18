@@ -5,13 +5,22 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.kittycoder</groupId>
     <artifactId>mooc-datastructure-study</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
+    <parent>
+        <groupId>com.kittycoder</groupId>
+        <artifactId>DataStructureLearning</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>02Arrays</module>
+        <module>03Stack-and-Queues</module>
+        <module>04Linked-List</module>
+        <module>05Recursion</module>
+        <module>06Binary-Search-Tree</module>
+        <module>07Set-and-Map</module>
+    </modules>
 
     <dependencies>
         <!-- junit -->
@@ -22,4 +31,14 @@
             <!--<scope>test</scope>-->
         </dependency>
     </dependencies>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>src</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
+    </build>
 </project>

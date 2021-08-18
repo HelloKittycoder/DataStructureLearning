@@ -7,10 +7,21 @@
     <groupId>com.kittycoder</groupId>
     <artifactId>03Stack-and-Queues</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <parent>
         <artifactId>mooc-datastructure-study</artifactId>
         <groupId>com.kittycoder</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <modules>
+        <module>02-Array-Stack</module>
+        <module>03-A-Stack-Problem-in-Leetcode</module>
+        <module>04-More-about-Leetcode</module>
+        <module>05-Array-Queue</module>
+        <module>06-Loop-Queue</module>
+        <module>07-Implementation-of-Loop-Queue</module>
+        <module>08-Queues-Comparison</module>
+    </modules>
 </project>
