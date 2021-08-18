@@ -12,6 +12,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+
+        <fusesource.jansi.version>1.11</fusesource.jansi.version>
+        <junit.version>4.12</junit.version>
+        <commons-lang3.version>3.4</commons-lang3.version>
     </properties>
 
     <modules>
@@ -19,6 +23,30 @@
         <module>atguigu-datastructure</module>
     </modules>
 
-    <dependencies>
-    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <!-- 控制台打印彩色字体 -->
+            <!-- https://mvnrepository.com/artifact/org.fusesource.jansi/jansi -->
+            <dependency>
+                <groupId>org.fusesource.jansi</groupId>
+                <artifactId>jansi</artifactId>
+                <version>${fusesource.jansi.version}</version>
+            </dependency>
+
+            <!-- junit -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
