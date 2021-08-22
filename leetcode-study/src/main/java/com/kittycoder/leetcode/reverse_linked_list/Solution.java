@@ -3,6 +3,7 @@
  */
 package com.kittycoder.leetcode.reverse_linked_list;
 
+import com.kittycoder.leetcode.util.ListNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

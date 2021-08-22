@@ -3,6 +3,8 @@
  */
 package com.kittycoder.leetcode.reverse_linked_list;
 
+import com.kittycoder.leetcode.util.ListNode;
+
 /**
  * log instance is defined in Solution interface
  * this is how slf4j will work in this class:

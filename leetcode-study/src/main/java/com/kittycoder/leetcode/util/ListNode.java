@@ -1,4 +1,4 @@
-package com.kittycoder.leetcode.reverse_linked_list;
+package com.kittycoder.leetcode.util;
 
 /**
  * Created by shucheng on 2021/8/19 0:05
@@ -6,7 +6,7 @@ package com.kittycoder.leetcode.reverse_linked_list;
 public class ListNode {
 
     int val;
-    ListNode next;
+    public ListNode next;
 
     public ListNode() {
     }

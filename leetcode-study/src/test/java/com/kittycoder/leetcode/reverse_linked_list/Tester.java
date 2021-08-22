@@ -8,6 +8,7 @@ import java.util.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
+import com.kittycoder.leetcode.util.ListNode;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 import org.junit.Before;
