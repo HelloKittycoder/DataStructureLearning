@@ -5,7 +5,7 @@ package com.kittycoder.leetcode.util;
  */
 public class ListNode {
 
-    int val;
+    public int val;
     public ListNode next;
 
     public ListNode() {
@@ -49,6 +49,19 @@ public class ListNode {
         } else {
             return val == listNode.val;
         }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(val);
+        ListNode nextNode = this.next;
+        while (nextNode != null) {
+            sb.append("->");
+            sb.append(nextNode.val);
+            nextNode = nextNode.next;
+        }
+        return sb.toString();
     }
 
     public static void main(String[] args) {
