@@ -29,8 +29,14 @@ public class FileUtil {
             fis = new FileInputStream(file);
             byte[] data = new byte[1024];
             StringBuilder sb = new StringBuilder();
-            while (fis.read(data) != -1) {
-                sb.append(new String(data));
+            int readByteNum;
+            /**
+             * 这里一定要接上readByteNum，因为byte不一定会读满，不接的话，数据会有问题
+             * 验证：（1）可以用largeArray2.txt看下解析出来的数组长度，和chrome控制台上的数组长度对比
+             * （2）也可以把byte数组改小点，自己弄个txt来验证下
+             */
+            while ((readByteNum = fis.read(data)) != -1) {
+                sb.append(new String(data, 0, readByteNum));
             }
             return sb.toString();
         } catch (Exception e) {
